@@ -19,8 +19,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.button.setOnClickListener {
-            binding.textView2.text = "This is an Example!"
-            binding.textView.text = "of App Updated!"
+            binding.textView.text = "Hello World !!!!!"
         }
 
         val appUpdater = AppUpdater(this)
