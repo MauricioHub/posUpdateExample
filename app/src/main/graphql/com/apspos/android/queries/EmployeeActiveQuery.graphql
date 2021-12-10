@@ -1,0 +1,7 @@
+query EmployeeActiveQuery ($store_id: String!, $filter_employees: Boolean){
+    employeesClockIn(storeId: $store_id, filterEmployees: $filter_employees){
+        id
+        firstName
+        lastName
+    }
+}

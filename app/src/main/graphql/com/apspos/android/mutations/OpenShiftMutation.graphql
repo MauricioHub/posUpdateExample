@@ -1,0 +1,18 @@
+mutation OpenShiftMutation($attributes: OpenShiftEmbedInput!) {
+    openShift(attributes: $attributes) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+        openShift
+        totalOpen
+        totalClose
+        dateOpen
+        dateClose
+        lastShift
+        id
+        error
+    }
+}

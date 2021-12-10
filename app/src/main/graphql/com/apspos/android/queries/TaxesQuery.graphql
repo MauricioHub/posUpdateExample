@@ -1,0 +1,8 @@
+query TaxesQuery{
+    taxes {
+        id
+        name
+        taxPercentage
+        value
+    }
+}

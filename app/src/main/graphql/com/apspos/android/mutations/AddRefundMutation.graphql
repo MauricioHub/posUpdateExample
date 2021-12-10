@@ -1,0 +1,11 @@
+mutation AddRefundMutation ($attributes: RefundInput!) {
+    addRefund(attributes: $attributes) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+        id
+    }
+}

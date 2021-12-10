@@ -1,0 +1,10 @@
+mutation EditInvoiceMutation ($attributes: InvoiceInput!, $id: ID!) {
+    editInvoice(attributes: $attributes, id: $id) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+    }
+}

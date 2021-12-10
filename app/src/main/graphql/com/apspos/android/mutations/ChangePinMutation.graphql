@@ -1,0 +1,13 @@
+mutation ChangePinMutation ($pin: String!, $id: ID!, $storeId: String!) {
+    changePinEmployee(pin: $pin, id: $id, storeId: $storeId) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+        id
+        email
+        pin
+    }
+}

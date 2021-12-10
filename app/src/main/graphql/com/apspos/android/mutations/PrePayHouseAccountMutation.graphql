@@ -1,0 +1,20 @@
+mutation PrePayHouseAccountMutation($attributes: PaidInInput!) {
+    prepayHouseAccountCustomer(attributes: $attributes) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+        customer{
+            id
+            firstname
+            lastname
+            email
+            phone
+            totalAvailable
+            prepay
+        }
+
+    }
+}

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "193973030553",
+    "firebase_url": "https://juvoaps.firebaseio.com",
+    "project_id": "juvoaps",
+    "storage_bucket": "juvoaps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193973030553:android:7d24f51dbf80cfeedf3208",
+        "android_client_info": {
+          "package_name": "com.aps.juvooloapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193973030553-q0dllut2quktd7274k71f1gcphl3t4o4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClxt81nzeKgLuxWeh6pWcGH0CPx1GGU2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193973030553-q0dllut2quktd7274k71f1gcphl3t4o4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:193973030553:android:67c8876944a7f8c1df3208",
+        "android_client_info": {
+          "package_name": "com.apspos.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "193973030553-q0dllut2quktd7274k71f1gcphl3t4o4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClxt81nzeKgLuxWeh6pWcGH0CPx1GGU2k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "193973030553-q0dllut2quktd7274k71f1gcphl3t4o4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,17 @@
+mutation CloseShiftMutation($attributes: CloseShiftEmbedInput!) {
+    closeShift(attributes: $attributes) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+        openShift
+        totalOpen
+        totalClose
+        dateOpen
+        dateClose
+        lastShift
+        error
+    }
+}

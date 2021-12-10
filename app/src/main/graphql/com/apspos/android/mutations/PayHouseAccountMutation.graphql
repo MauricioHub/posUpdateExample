@@ -1,0 +1,21 @@
+mutation PayHouseAccountMutation ($attributes: PaidInInput!) {
+    payHouseAccountCustomer(attributes: $attributes) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+        customer{
+            id
+            firstname
+            lastname
+            email
+            phone
+            totalAvailable
+            debt
+            totalBalance
+        }
+
+    }
+}

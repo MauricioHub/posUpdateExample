@@ -1,0 +1,51 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="55.8dp"
+    android:height="55.8dp"
+    android:viewportWidth="47.4"
+    android:viewportHeight="47.4">
+  <path
+      android:pathData="M23.7,23.7m-23.7,0a23.7,23.7 0,1 1,47.4 0a23.7,23.7 0,1 1,-47.4 0"
+      android:fillColor="#556080"/>
+  <path
+      android:pathData="M28.5,9.7c-2.1,-2.2 -5.1,-3.5 -8.4,-3.5C13.5,6.2 8.2,11.5 8.2,18c0,3.3 1.3,6.3 3.5,8.4l12,12v1.8l6.4,6.3v0c8.6,-2.4 15.2,-9.5 16.9,-18.4L28.5,9.7z"
+      android:fillColor="#C70024"/>
+  <path
+      android:pathData="M20.1,18m-11.8,0a11.8,11.8 0,1 1,23.6 0a11.8,11.8 0,1 1,-23.6 0"
+      android:fillColor="#ACABB1"/>
+  <path
+      android:pathData="M20.1,6.2v23.7c6.5,0 11.8,-5.3 11.8,-11.8S26.6,6.2 20.1,6.2z"
+      android:fillColor="#898890"/>
+  <path
+      android:pathData="M20.1,18m-10.2,0a10.2,10.2 0,1 1,20.4 0a10.2,10.2 0,1 1,-20.4 0"
+      android:fillColor="#FFFFFF"/>
+  <path
+      android:pathData="M20.1,7.8v20.4c5.6,0 10.2,-4.6 10.2,-10.2S25.7,7.8 20.1,7.8z"
+      android:fillColor="#D8D7DA"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M26.4,13.4l-1.7,-1.8l-5.1,5.2l-4.8,0l0,2.4l5.7,0z"/>
+  <path
+      android:pathData="M23.7,20.6h14.4v19.6h-14.4z"
+      android:fillColor="#FFFFFF"/>
+  <path
+      android:pathData="M30.9,20.6h7.2v19.6h-7.2z"
+      android:fillColor="#E1E3FA"/>
+  <path
+      android:pathData="M29.9,35h6.2v1h-6.2z"
+      android:fillColor="#C6C5CA"/>
+  <path
+      android:pathData="M27.3,35.5m-1.5,0a1.5,1.5 0,1 1,3 0a1.5,1.5 0,1 1,-3 0"
+      android:fillColor="#C6C5CA"/>
+  <path
+      android:pathData="M29.9,29.9h6.2v1h-6.2z"
+      android:fillColor="#C6C5CA"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M26.8,31.9l-1.4,-1.2l0.7,-0.7l0.6,0.5l1.4,-1.7l0.7,0.6z"/>
+  <path
+      android:pathData="M29.9,24.7h6.2v1h-6.2z"
+      android:fillColor="#C6C5CA"/>
+  <path
+      android:fillColor="#FF000000"
+      android:pathData="M26.8,26.8l-1.4,-1.2l0.7,-0.8l0.6,0.6l1.4,-1.7l0.7,0.6z"/>
+</vector>

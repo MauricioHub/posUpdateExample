@@ -1,0 +1,11 @@
+mutation ChangeInvoiceTable($store_id: String!, $invoice_id: ID!, $table_id: ID!, $table_number: String!) {
+    changeInvoiceTable(storeId: $store_id, invoiceId: $invoice_id, tableId: $table_id, tableNumber: $table_number) {
+        success
+        message
+        requestCode
+        errors {
+            message
+            path
+        }
+    }
+}

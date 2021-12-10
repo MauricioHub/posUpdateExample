@@ -1,0 +1,47 @@
+query SalesDetailDailyReports ($date_start: String, $date_end: String, $shift_id: String,  $storeId: String!){
+    saleDetailDailyReports  (dateStart: $date_start, dateEnd: $date_end, shiftId: $shift_id, storeId: $storeId) {
+        grossSales
+        cashDiscount
+        quantityCashDiscount
+        tips
+        quantityTips
+        totalGuest
+        avgGuest
+        totalNetCash
+        grossNetCash
+        grossCashOut
+        quantityNetCash
+        totalTransaction
+        netSales
+        avgTransaction
+        quantitiesNewEmployees
+        quantitiesNewCustomers
+        totalDiscountsOrder
+        quantitysDiscountsOrder
+        totalDiscountsItem
+        quantitysDiscountsItem
+        totalTaxes
+        quantitysTaxes
+        totalsRefunds
+        quantitiesRefunds
+        totalsRefundsCash
+        quantitiesRefundsCash
+        totalsPaidOuts
+        quantitiesPaidOuts
+        totalsPaidIns
+        quantitiesPaidIns
+        totalsGratuities
+        quantitiesGratuities
+        ccGratuities
+        cashGratuities
+        otherGratuities
+        totalVoid
+        quantityVoid
+        shiftOpeningAmount
+        expectedAmount
+        shiftDeclaredAmount
+        variance
+        dateOpen
+
+    }
+}

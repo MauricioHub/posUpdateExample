@@ -1,0 +1,10 @@
+mutation SendEmailMutation($invoice_id: String!, $email: String!, $storeId: String!) {
+    sendPaymentNotification(invoiceId: $invoice_id, email: $email, storeId: $storeId) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+    }
+}

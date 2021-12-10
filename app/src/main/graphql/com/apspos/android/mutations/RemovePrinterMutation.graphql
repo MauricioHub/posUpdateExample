@@ -1,0 +1,10 @@
+mutation RemovePrinterMutation ($id: ID!, $storeId: String!) {
+    removePrinter(id: $id, storeId: $storeId) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+    }
+}

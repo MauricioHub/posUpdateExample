@@ -1,0 +1,72 @@
+query MenuItemQuery($status: Boolean, $model_by: String, $visible: Boolean, $order_by: String, $store_id: String!) {
+    menuItems(status: $status, modelBy: $model_by, visible: $visible, orderBy: $order_by, storeId: $store_id) {
+        id
+        name
+        receipt
+        kitchen
+        color
+        imageUrl
+        openPrice
+        quantity
+        barcode
+        sendPrinter
+        byWeight
+        openName
+        category{
+            name
+            color
+        }
+        modifierGroupsOrder {
+            id
+            order
+            modifierGroup{
+                id
+                name
+                min
+                max
+                free
+                forced
+                show
+                #comment
+                modifierItems {
+                    id
+                    name
+                    tags {
+                        tag {
+                            id
+                            name
+                        }
+                        price
+                        weight
+                        trackInventory
+                    }
+                }
+            }
+        }
+        groups {
+            id
+            name
+            default
+            tax {
+                id
+                name
+                taxPercentage
+                value
+            }
+        }
+        priceLists {
+            id
+            name
+            price
+        }
+        printers{
+            id
+            name
+            isKds
+        }
+
+        category{
+            visiblePos
+        }
+    }
+}

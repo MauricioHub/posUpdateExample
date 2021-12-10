@@ -1,0 +1,11 @@
+mutation AddInvoiceMutation($attributes: InvoiceInput!) {
+    addInvoice(attributes: $attributes) {
+        success
+        message
+        id
+        errors {
+            message
+            path
+        }
+    }
+}

@@ -1,0 +1,13 @@
+mutation BreakOutMutation($pin: String!, $store_id: String!){
+    breakOut(pin: $pin, storeId: $store_id) {
+        success
+        message
+        requestCode
+        time
+        errors {
+            message
+            path
+        }
+        id
+    }
+}

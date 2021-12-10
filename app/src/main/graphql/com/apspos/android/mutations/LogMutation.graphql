@@ -1,0 +1,9 @@
+mutation  LogMutation ($attributes: [LogsInput!]!, $store_id: String!) {
+    createLogs(attributes: $attributes, storeId: $store_id) {
+        success
+        message
+        errors{
+            message
+        }
+    }
+}

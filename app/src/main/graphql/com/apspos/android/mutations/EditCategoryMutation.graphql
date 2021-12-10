@@ -1,0 +1,10 @@
+mutation EditCategoryMutation($id: ID!, $attributes: CategoryInput!) {
+    editCategory(id: $id, attributes: $attributes) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+    }
+}

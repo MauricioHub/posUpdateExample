@@ -1,0 +1,10 @@
+mutation DeletePaidOut ($id: ID!) {
+    removePaidOut(id: $id) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+    }
+}

@@ -1,0 +1,43 @@
+mutation LoginMutation ($pin: String!, $device_id: String!, $storeId: String!) {
+    loginApp(pin: $pin, deviceId: $device_id, storeId: $storeId) {
+        success
+        message
+        isClocking
+        clockIn
+        lastClockOut
+        totalHours
+        shiftId
+        shiftIsOpen
+        shiftOpeningAmount
+        expiredBusinessDay
+        requestCode
+        serverBank
+        isBreaking
+        employee {
+            id
+            firstName
+            lastName
+            email
+            phone
+            timeCard
+            jobs {
+                id
+                name
+                backOffice
+                pos
+                modules {
+                    id
+                    code
+                    name
+                    status
+                    permissions {
+                        id
+                        code
+                        name
+                        status
+                    }
+                }
+            }
+        }
+    }
+}

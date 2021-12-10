@@ -1,0 +1,13 @@
+query TableRoomsQuery ($store_id: String!){
+    areas(storeId: $store_id) {
+        id
+        storeId
+        name
+        tables {
+            id
+            name
+            guests
+            guestBusy
+        }
+    }
+}

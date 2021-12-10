@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0099F7</color>
+    <color name="colorPrimaryDark">#004BA0</color>
+    <color name="colorAccent">#0099F7</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGray">#707070</color>
+    <color name="colorRed">#b71c1c</color>
+    <color name="colorPink">#FD0D5E</color>
+    <color name="colorSecondaryRed">#b71c1c</color>
+    <color name="colorSecondaryGreen">#00c853</color>
+    <color name="colorGrayDark">#424242</color>
+    <color name="colorGrayPrimary">#eeeeee</color>
+    <color name="colorGrayPrimaryDark">#c7c7c7</color>
+    <color name="colorBackgroundItemOrder">#81dbe2</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGraySecondaryDark">#c2c2c2</color>
+    <color name="colorGrayThirdDark">#B3B2B2</color>
+    <color name="colorBackgroundOld">#70D3E3FF</color>
+    <color name="colorGrayTimeClock">#c5c5c5</color>
+    <color name="colorTextBrown">#f0ede7</color>
+    <color name="colorGrayLine">#9a9a9a</color>
+    
+    <color name="colorMainColor">#0099F7</color>
+    <color name="colorMainColor2">#e3f2fd</color>
+    <color name="colorBackground">#FCFCFC</color>
+    <color name="colorBlackNew">#515252</color>
+    <color name="colorGrayNew">#AEAEAE</color>
+    <color name="colorSecondColor">#60B7F9</color>
+    <color name="colorThirdColor">#2185D0</color>
+    <color name="colorAditionalBlue">#0049A6</color>
+    <color name="colorAditionalGreenLight">#00DAAB</color>
+    <color name="colorAdditionalGreen">#00B788</color>
+    <color name="colorAditionalBlue2">#001DF7</color>
+    <color name="colorAditionalPurple">#5F00F7</color>
+    <color name="colorAditionalPink">#F70098</color>
+    <color name="colorAditionalPinkDark">#91006A</color>
+    <color name="colorAditionalOrangeDark">#EE3E03</color>
+    <color name="colorAditionalOrangeDark2">#FFE1BA</color>
+    <color name="colorAditionalOrange">#FF8100</color>
+    <color name="colorAditionalGray">#e2e2e2</color>
+    <color name="colorAditionalGray2">#f3f3f3</color>
+    <color name="colorBlur">#999999</color>
+
+</resources>

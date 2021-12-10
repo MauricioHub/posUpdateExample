@@ -1,0 +1,31 @@
+query CustomersQuery {
+    customers {
+        id
+        firstname
+        lastname
+        phone
+        email
+        companyName
+        birthday
+        address
+        apartment
+        floor
+        entrance
+        onArrival
+        zipcode
+        cityState
+        deliveryInstructions
+        note
+        lastVisit
+        totalVisit
+        averageCheck
+        totalSpent
+        houseAccount
+        totalLimit
+        totalAvailable
+        totalBalance
+        loyalty
+        pointsLoyalty
+        noLimit
+    }
+}

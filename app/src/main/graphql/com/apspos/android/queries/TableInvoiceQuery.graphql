@@ -1,0 +1,257 @@
+query TableInvoiceQuery ($store_id:  String!, $table_id: ID!) {
+    invoiceByTable(storeId: $store_id, tableId: $table_id) {
+        id
+        ticketNumber
+        tableNumber
+        moduleName
+        tableId
+        guest
+        shiftId
+        isBusy
+        listInvoices {
+            splitNumber
+            totalTaxes
+            totalDiscounts
+            totalGratuities
+            subTotal
+            total
+            addNameValue
+            invoiceTaxExempt
+            orderType {
+                id
+                name
+                default
+                step
+                promptFor
+                promptForValue
+                requiredPrompt
+                promptForValue
+            }
+            status
+            date
+            time
+            void {
+                name
+            }
+            discount {
+                discount {
+                    id
+                }
+                name
+                type
+                discountPercentage
+                value
+                managerApproval
+                taxIncluded
+                discountType
+                discountValue
+            }
+            gratuity {
+                gratuity {
+                    id
+                }
+                id
+                storeId
+                name
+                value
+                openValue
+                isPercentage
+                customerTax
+                automatic
+                totalCheckOption {
+                    active
+                    value
+                }
+                allCheckOption{
+                    active
+                }
+                totalGuestOption{
+                    active
+                    value
+                }
+            }
+            employee {
+                id
+                firstName
+                lastName
+            }
+            customer {
+                id
+                firstname
+                lastname
+                phone
+                email
+                zipcode
+                cityState
+                address
+                note
+                lastVisit
+                totalVisit
+                averageCheck
+                totalSpent
+                houseAccount
+                totalLimit
+                totalAvailable
+                totalBalance
+                loyalty
+                pointsLoyalty
+                noLimit
+            }
+            giftCards{
+                gcNumber
+                availableValue
+                usedValue
+            }
+            menuItems {
+                id
+                itemId
+                isSplitItem
+                name
+                price
+                specialPrice
+                totalTaxes
+                totalModifiers
+                total
+                quantity
+                status
+                isToGo
+                hasKitchenComment
+                kitchenComment
+                categoryName
+                itemTaxExempt
+                byWeight
+                generalPosition
+                isDisabled
+                isGiftCard
+                giftCardName
+                giftCardNumber
+                giftCardType
+                changeQuantity
+                gratuityValue
+                void {
+                    name
+                }
+                discount{
+                    discount{
+                        id
+                    }
+                    name
+                    type
+                    discountPercentage
+                    value
+                    managerApproval
+                    taxIncluded
+                    discountType
+                    discountValue
+                    hasDiscount
+                }
+                groups {
+                    name
+                    default
+                    taxes {
+                        taxId
+                        name
+                        taxPercentage
+                        value
+                    }
+                }
+#                modifierGroups {
+#                    id
+#                    name
+#                    min
+#                    max
+#                    free
+#                    minTwo
+#                    maxTwo
+#                    freeTwo
+#                    comment
+#                    forced
+#                    forcedTwo
+#                    show
+#                    modifierItems {
+#                        id
+#                        name
+#                        receipt
+#                        kitchen
+#                        status
+#                        tags {
+#                            name
+#                            price
+#                            weight
+#                            trackInventory
+#                            tag {
+#                                id
+#                                name
+#                                status
+#                            }
+#                        }
+#                    }
+#                }
+                addedModifiers {
+                    tag
+                    name
+                    value
+                    modifierGroupPosition
+                    modifierTagPos
+                    isFree
+                }
+                printers{
+                    printer {
+                        id
+                    }
+                    name
+                    isKds
+
+                }
+            }
+            paymentMethods {
+                id
+                name
+                paymentName
+                value
+                paymentStatus
+                cashDiscount
+                tip
+                tipPercentage
+                change
+                gcNumber
+                gratuityValue
+                payment {
+                    id
+                }
+                paymentResponse{
+                    resultCode
+                    resultTxt
+                    authCode
+                    approvedAmt
+                    avsResponse
+                    bogusAccount
+                    cardType
+                    cvResponse
+                    hostCode
+                    hostResponse
+                    message
+                    refNum
+                    remainingBalance
+                    extraBalance
+                    requestedAmount
+                    timeStamp
+                    sigFile
+                    signData
+                    extData
+                }
+            }
+            listTaxes {
+                taxId
+                name
+                value
+                taxPercentage
+                totalTax
+            }
+            listDiscounts {
+                name
+                value
+            }
+        }
+    }
+}

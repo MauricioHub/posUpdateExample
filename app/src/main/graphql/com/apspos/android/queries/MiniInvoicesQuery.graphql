@@ -1,0 +1,29 @@
+query MiniInvoicesQuery ($filter: String!, $status: [String!], $store_id:  String!, $module_name: [String!]) {
+    invoicesPos(filter: $filter, status: $status, storeId: $store_id, moduleName: $module_name) {
+        id
+        storeId
+        ticketNumber
+        tableNumber
+        tableId
+        guest
+        date
+        createdAt
+        updatedAt
+        time
+        splitNumber
+        total
+        status
+        addNameValue
+        customer{
+            id
+            firstname
+            lastname
+            fullname
+        }
+        employee {
+            id
+            firstName
+            lastName
+        }
+    }
+}

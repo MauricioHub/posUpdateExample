@@ -1,0 +1,10 @@
+mutation AddVoidMutation ($attributes: VoidInput!) {
+    addVoid(attributes: $attributes) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+    }
+}

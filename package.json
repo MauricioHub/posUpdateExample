@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "graphql-cli": "3.0.14"
+  }
+}

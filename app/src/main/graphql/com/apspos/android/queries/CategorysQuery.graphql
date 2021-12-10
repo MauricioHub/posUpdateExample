@@ -1,0 +1,10 @@
+query CategorysQuery($order_by: String!, $visible: Boolean!, $storeId: String!) {
+    categories(orderBy: $order_by, visible: $visible, storeId: $storeId) {
+        id
+        name
+        color
+        menuItems {
+            id
+        }
+    }
+}

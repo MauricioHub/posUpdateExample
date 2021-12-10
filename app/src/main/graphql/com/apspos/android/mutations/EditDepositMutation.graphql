@@ -1,0 +1,19 @@
+mutation EditDepositMutation ($status: String!, $store_id: String!, $id: ID!) {
+    editDeposit(status: $status, id: $id, storeId: $store_id) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+        deposit{
+            id
+            storeId
+            date
+            cash
+            check
+            status
+            comment
+        }
+    }
+}

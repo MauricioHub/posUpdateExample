@@ -1,0 +1,10 @@
+query DepartmentsQuery{
+    departments {
+        id
+        name
+        categories{
+            id
+            name
+        }
+    }
+}

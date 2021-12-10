@@ -1,0 +1,7 @@
+query VoidOptionsQuery($storeId: String!){
+    voids(storeId: $storeId) {
+        id
+        name
+        managerApproval
+    }
+}

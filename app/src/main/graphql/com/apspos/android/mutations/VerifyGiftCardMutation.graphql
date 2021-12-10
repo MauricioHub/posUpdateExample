@@ -1,0 +1,19 @@
+mutation VerifyGiftCardMutation ($store_id: String!, $operation: String!, $number: String!, $employee_id: String!) {
+    verifyGiftCard(storeId: $store_id, number: $number, operation: $operation, employeeId: $employee_id) {
+        message
+        success
+        errors{
+            message
+        }
+        requestCode
+        giftCard {
+            accountId
+            storeId
+            status
+            balance
+            activationDay
+            number
+            type
+        }
+    }
+}

@@ -1,0 +1,23 @@
+query GetGratuitiesQuery ($store_id: String!){
+    gratuities (storeId: $store_id) {
+        id
+        storeId
+        name
+        value
+        openValue
+        isPercentage
+        customerTax
+        automatic
+        totalCheckOption {
+            active
+            value
+        }
+        allCheckOption{
+            active
+        }
+        totalGuestOption{
+            active
+            value
+        }
+    }
+}

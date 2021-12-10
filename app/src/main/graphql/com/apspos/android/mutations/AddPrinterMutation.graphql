@@ -1,0 +1,11 @@
+mutation AddPrinterMutation ($attributes: PrinterInput!) {
+    addPrinter(attributes: $attributes) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+        id
+    }
+}

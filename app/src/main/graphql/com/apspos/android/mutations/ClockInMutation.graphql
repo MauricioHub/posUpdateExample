@@ -1,0 +1,13 @@
+mutation ClockInMutation ($pin: String!, $storeId: String!) {
+    clockIn(pin: $pin, storeId: $storeId) {
+        success
+        message
+        isClocking
+        totalHours
+        clockIn
+        lastClockOut
+        error
+        shiftId
+        startedDay
+    }
+}

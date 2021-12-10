@@ -1,0 +1,10 @@
+mutation RemoveCategoryMutation($id: ID!) {
+    removeCategory(id: $id) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+    }
+}

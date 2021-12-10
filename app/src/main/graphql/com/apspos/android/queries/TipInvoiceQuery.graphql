@@ -1,0 +1,46 @@
+query TipInvoiceQuery ($filter: String!, $status:[String!], $storeId: String!) {
+    invoices (filter: $filter, status: $status, storeId: $storeId){
+        id
+        ticketNumber
+        tableNumber
+
+        listInvoices {
+            splitNumber
+            subTotal
+            total
+            status
+            date
+            time
+            employee {
+                id
+                firstName
+                lastName
+            }
+
+            paymentMethods {
+                id
+                name
+                paymentName
+                value
+                paymentStatus
+                tip
+                tipPercentage
+                gratuityValue
+                payment {
+                    id
+                }
+                paymentResponse{
+                    bogusAccount
+                    cardType
+                    refNum
+                    cvResponse
+                    approvedAmt
+                    hostCode
+                    authCode
+                    message
+                    extData
+                }
+            }
+        }
+    }
+}

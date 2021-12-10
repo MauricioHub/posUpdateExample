@@ -1,0 +1,11 @@
+mutation EditInvoiceTipMutation($store_id: String!, $id: ID!, $payment_id: ID!, $tip: Float!, $tip_percentage: Int!) {
+    editInvoiceTipPayment(storeId: $store_id, id: $id, paymentId: $payment_id, tip: $tip, tipPercentage: $tip_percentage) {
+        success
+        message
+        requestCode
+        errors {
+            message
+            path
+        }
+    }
+}

@@ -1,0 +1,7 @@
+query DashboardCategoryQuery ($date_start: String, $date_end: String, $shift_id: String, $store_id: String!, $limit: Boolean) {
+    categoryDailyReports (dateStart: $date_start, dateEnd: $date_end, shiftId: $shift_id, storeId: $store_id, limit: $limit) {
+        name
+        quantity
+        total
+    }
+}

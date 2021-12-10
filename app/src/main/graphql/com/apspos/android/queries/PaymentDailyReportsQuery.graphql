@@ -1,0 +1,11 @@
+query PaymentDailyReportQuery($date_start: String, $date_end: String, $shift_id: String, $storeId: String!){
+    paymentDailyReports  (dateStart: $date_start, dateEnd: $date_end, shiftId: $shift_id, storeId: $storeId) {
+        name
+        count
+        subtotal
+        total
+        gratuity
+        tip
+        totalPayment
+    }
+}

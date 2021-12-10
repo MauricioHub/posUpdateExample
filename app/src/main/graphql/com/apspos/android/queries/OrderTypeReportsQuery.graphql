@@ -1,0 +1,7 @@
+query OrderTypeReportsQuery($date_start: String, $date_end: String, $shift_id: String, $storeId: String!){
+    orderTypeReports(dateStart: $date_start, dateEnd: $date_end, shiftId: $shift_id, storeId: $storeId) {
+        name
+        quantity
+        total
+    }
+}

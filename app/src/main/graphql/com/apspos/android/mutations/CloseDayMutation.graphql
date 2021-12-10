@@ -1,0 +1,31 @@
+mutation CloseDayMutation($storeId: String!, $deviceId: String!) {
+    closeWorkingDay(storeId: $storeId, deviceId: $deviceId) {
+        success
+        message
+        shifts {
+            shiftId
+            shiftOpen
+            shiftName
+            shiftTotalOpen
+            shiftTotalClose
+            shiftDateOpen
+            shiftDateClose
+            shiftDevice {
+                id
+                name
+            }
+            shiftEmployee
+        }
+        errors {
+            message
+            path
+        }
+        
+        employeeError {
+            name
+            message
+        }
+    }
+}
+
+

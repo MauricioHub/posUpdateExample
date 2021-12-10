@@ -1,0 +1,13 @@
+query ValidatePersmissionQuery ($store_id: String!, $pin: String!, $permission_code: String!) {
+    validatePermission(storeId: $store_id, pin: $pin, permissionCode: $permission_code) {
+        success
+        message
+        storeId
+        employee {
+            id
+            firstName
+            lastName
+            email
+        }
+    }
+}

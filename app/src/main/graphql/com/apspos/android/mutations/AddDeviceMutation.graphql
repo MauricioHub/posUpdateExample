@@ -1,0 +1,118 @@
+mutation AddDeviceMutation($attributes: DeviceInput!) {
+    updateDevice(attributes: $attributes) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+        deviceId
+        name
+        token
+        isLicensed
+        store {
+            id
+            accountId
+            storeId
+            installationCode
+            strongId
+            deviceNumber
+            licenseModule
+            image
+            imageUrl
+            imagePath
+            name
+            address
+            country
+            state
+            city
+            zipCode
+            timezone
+            website
+            contactName
+            contactPhone
+            coordinateLat
+            coordinateLng
+            socialFacebook
+            socialTwitter
+            socialInstagram
+            openingHours {
+                id
+                name
+            }
+            receipt {
+                numberCopies
+                headerReceipt {
+                    businessAddress
+                    businessName
+                    businessPhone
+                    businessWebsite
+                    check
+                    customer
+                    date
+                    employee
+                    orderNum
+                    orderType
+                    station
+                    storeLogo
+                    table
+                    time
+                    text
+                }
+                footerReceipt {
+                    text
+                    tipsSuggestions
+                    deliveryInfo {
+                        active
+                        customerAddress
+                        customerName
+                        customerPhone
+                        instructions
+                        notes
+                    }
+                    curbsideInfo {
+                        active
+                        instructions
+                        customerPhone
+                        carColor
+                        carModel
+                        customerName
+                    }
+                    socialMedia {
+                        active
+                        facebook
+                        instagram
+                        twitter
+                        website
+                    }
+                }
+            }
+            ccReceipt {
+                numberCopies
+                headerReceipt {
+                    storeLogo
+                    businessAddress
+                    businessName
+                    businessPhone
+                    businessWebsite
+                    text
+                }
+                footerReceipt {
+                    additionalTip
+                    amount
+                    phone
+                    signature
+                    tip
+                    tipsSuggestions
+                    total
+                    text
+                }
+            }
+            enableAutomaticDayClose
+            dateDayClose
+            isDestroy
+            dateDestroy
+            tipPayed
+        }
+    }
+}

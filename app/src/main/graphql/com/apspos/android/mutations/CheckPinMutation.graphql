@@ -1,0 +1,6 @@
+mutation CheckPinMutation ($pin: String!, $storeId: String!) {
+    existPinEmployee(pin: $pin, storeId: $storeId) {
+        success
+        message
+    }
+}

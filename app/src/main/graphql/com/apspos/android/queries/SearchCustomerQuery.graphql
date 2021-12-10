@@ -1,0 +1,31 @@
+query SearchCustomerQuery ($string: String, $storeId: String!){
+    searchCustomers(string: $string, storeId: $storeId) {
+        id
+        firstname
+        lastname
+        phone
+        email
+        companyName
+        birthday
+        address
+        apartment
+        floor
+        entrance
+        onArrival
+        zipcode
+        cityState
+        deliveryInstructions
+        note
+        totalSpent
+        totalVisit
+        lastVisit
+        averageCheck
+        houseAccount
+        totalLimit
+        totalAvailable
+        totalBalance
+        loyalty
+        pointsLoyalty
+        noLimit
+    }
+}

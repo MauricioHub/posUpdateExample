@@ -1,0 +1,10 @@
+mutation DeleteRefundMutation ($id: ID!, $storeId: String!) {
+    removeRefund(id: $id, storeId: $storeId) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+    }
+}

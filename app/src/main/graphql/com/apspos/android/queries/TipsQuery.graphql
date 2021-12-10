@@ -1,0 +1,18 @@
+query TipsQuery($storeId: String!, $module_by: String!) {
+    tips(storeId: $storeId, moduleBy: $module_by) {
+        id
+        printInReceipt
+        showName
+        showValue
+        showTotalTip
+        showCustomAmount
+        showNoTip
+        use
+        taxIncluded
+        tips {
+            name
+            value
+            tipPercentage
+        }
+    }
+}

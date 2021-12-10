@@ -1,0 +1,19 @@
+mutation ChangeStatusGiftCardMutation ($number: String!, $store_id: String!, $employee_id: String!) {
+    changeStatusGiftCard(number: $number, storeId: $store_id, employeeId: $employee_id) {
+        message
+        success
+        errors{
+            message
+        }
+        requestCode
+        giftCard {
+            activationDay
+            balance
+            id
+            accountId
+            number
+            storeId
+            status
+        }
+    }
+}

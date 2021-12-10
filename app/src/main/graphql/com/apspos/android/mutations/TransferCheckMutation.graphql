@@ -1,0 +1,10 @@
+mutation TransferCheckMutation ($attributes: EmployeeTransferInput!) {
+    employeeTransfer(attributes: $attributes) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+    }
+}

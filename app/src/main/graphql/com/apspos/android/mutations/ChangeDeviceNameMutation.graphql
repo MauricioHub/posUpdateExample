@@ -1,0 +1,15 @@
+mutation ChangeDeviceNameMutation ($device_id: String!, $store_id: String!, $name: String!, $module_name: String!) {
+    changeNameDevice(deviceId: $device_id,  storeId: $store_id, name: $name, moduleName: $module_name) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+        deviceId
+        name
+        token
+        moduleName
+        isLicensed
+    }
+}

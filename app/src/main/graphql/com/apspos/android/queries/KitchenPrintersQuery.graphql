@@ -1,0 +1,13 @@
+query KitchenPrintersQuery ($module_by: String, $storeId: String!) {
+    printers(moduleBy: $module_by, storeId: $storeId) {
+        id
+        name
+        manufacter
+        model
+        type
+        ipAddress
+        moduleName
+        default
+        isKds
+    }
+}

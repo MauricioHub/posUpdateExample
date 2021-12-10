@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "pos new": {
+      "schemaPath": "schema.json",
+      "extensions": {
+        "endpoints": {
+          "dev": {
+            "url": "http://192.99.62.171:7300/graphql",
+            "subscription": "ws://192.99.62.171:7300/graphql"
+          }
+        }
+      }
+    }
+  }
+}

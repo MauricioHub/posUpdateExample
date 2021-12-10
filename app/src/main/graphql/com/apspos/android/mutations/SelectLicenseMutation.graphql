@@ -1,0 +1,57 @@
+mutation SelectLicenseMutation($attributes: DeviceRegisterInput!) {
+    selectLicenseDevice(attributes: $attributes) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+        deviceId
+        name
+        number
+        token
+        type
+        availableDevices
+        isLicensed
+        store {
+            id
+            accountId
+            storeId
+            installationCode
+            strongId
+            deviceNumber
+            licenseModule
+            image
+            imageUrl
+            imagePath
+            name
+            address
+            country
+            state
+            city
+            zipCode
+            timezone
+            website
+            contactName
+            contactPhone
+            contactPhone
+            coordinateLat
+            coordinateLng
+            socialFacebook
+            socialTwitter
+            socialTwitter
+            openingHours {
+                id
+                name
+            }
+            enableAutomaticDayClose
+            dateDayClose
+            isDestroy
+            dateDestroy
+        }
+        licenses{
+            id
+            licenseName
+        }
+    }
+}

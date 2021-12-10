@@ -1,0 +1,28 @@
+query EmployeeQuery($storeId: String!){
+    employees(storeId: $storeId)
+    {
+        id
+        firstName
+        lastName
+        timeCard
+        pin
+        jobs {
+            id
+            name
+            backOffice
+            pos
+            modules {
+                id
+                code
+                name
+                status
+                permissions {
+                    id
+                    code
+                    name
+                    status
+                }
+            }
+        }
+    }
+}

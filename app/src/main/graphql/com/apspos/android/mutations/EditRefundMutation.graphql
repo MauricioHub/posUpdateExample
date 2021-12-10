@@ -1,0 +1,10 @@
+mutation EditRefundMutation ($attributes: RefundInput!, $id: ID!) {
+    editRefund(attributes: $attributes, id: $id) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+    }
+}

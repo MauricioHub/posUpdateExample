@@ -1,0 +1,626 @@
+<resources>
+    <string name="app_name">JuvoPos</string>
+    <string name="prompt_login">Username or email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_login">Login</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="add_product">Add product</string>
+    <string name="inventory_qsr_btn">Inventory</string>
+    <string name="inventory_qsr_list">Products list</string>
+    <string name="code_product">Code</string>
+    <string name="description_product">Description</string>
+    <string name="quantity_product">Qty</string>
+    <string name="quantity_product_pcs">PCS</string>
+    <string name="cost_product">Cost</string>
+    <string name="price_product">Price</string>
+    <string name="total_cost_product">Total cost</string>
+    <string name="total_product">Total</string>
+    <string name="coin_usd">USD</string>
+    <string name="save_product_btn">Add</string>
+    <string name="help">Help</string>
+    <string name="edit_product">Edit</string>
+    <string name="delete_product">Delete</string>
+    <string name="edit_product_tittle">Product edit</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="delete_message">Are you sure you want to delete</string>
+    <string name="confirmation_message">Confirmation</string>
+    <string name="delete_message_finish">delete success</string>
+    <string name="delete_message_finish_detail">Are you sure you want to delete this product ?</string>
+    <string name="product_size">Size</string>
+    <string name="product_sku">SKU</string>
+    <string name="product_ebt">EBT</string>
+    <string name="product_wic">WIC</string>
+    <string name="product_ship_only">Ship only</string>
+    <string name="product_for_sale">For Sale</string>
+    <string name="product_finished">Finished product</string>
+    <string name="product_status">Product status</string>
+    <string name="save_product">Save product</string>
+    <string name="go_to_stock">Go to stock</string>
+    <string name="update_product">Edit product</string>
+    <string name="name_product">Name</string>
+    <string name="title_activity_goto_stock">Got to stock</string>
+    <string name="list_item_stock">List of item in stock</string>
+    <string name="add_item">Add item</string>
+    <string name="save_item">Save item</string>
+    <string name="add_item_stock">Add item (stock)</string>
+    <string name="delete_message_finish_detail_item_stock">Are you sure you want to delete this item from the stock ?
+    </string>
+    <string name="delete_message_item_stock">Are you sure you want to delete the item</string>
+    <string name="update_item">Edit item</string>
+    <string name="hint_search">Search</string>
+    <string name="inventory_tittle">Inventory</string>
+    <string name="items_list">Items</string>
+    <string name="empty_data">It does not have data to show</string>
+    <string name="numeral">#</string>
+    <string name="categories_list">Categories</string>
+    <string name="recipe_list">Recipe</string>
+    <string name="provider_list">Provider</string>
+    <string name="categories">Categories</string>
+    <string name="product_image">Select an image</string>
+    <string name="manufacturers_code">Manufacturers code</string>
+    <string name="product_ingredient">Ingredient</string>
+    <string name="product_active">Active</string>
+    <string name="product_age_verification">Age verification</string>
+    <string name="product_sold_by_weight">Sold by weight</string>
+    <string name="product_class_tittle">Class</string>
+    <string name="product_suppliers_part_number">Suppliers part number</string>
+    <string name="product_taxes_tittle">Taxes</string>
+    <string name="product_provider_tittle">Provider</string>
+    <string name="product_last_cost">Last cost</string>
+    <string name="product_location">Location</string>
+    <string name="product_code_upc_1">Code UPC 1</string>
+    <string name="product_code_upc_2">Code UPC 2</string>
+    <string name="product_minimum_age">Minimum age</string>
+    <string name="product_creation_date">Creation date</string>
+    <string name="product_last_edition_date">Last edition date</string>
+    <string name="product_average_cost">Average cost</string>
+    <string name="location_provider">Location</string>
+    <string name="phone_provider">Phone</string>
+    <string name="website_provider">Website</string>
+    <string name="providers_tittle">Providers</string>
+    <string name="add_provider">Add provider</string>
+    <string name="save_provider">Save provider</string>
+    <string name="provider_information">Provider information</string>
+    <string name="provider_location">Location</string>
+    <string name="provider_phone">Phone</string>
+    <string name="provider_website">Website</string>
+    <string name="provider_contact_person_information">Contact person information</string>
+    <string name="provider_name_contact">Name contact</string>
+    <string name="provider_position_contact">Position contact</string>
+    <string name="provider_phone_contact">Phone contact</string>
+    <string name="provider_email_contact">Email contact</string>
+    <string name="product_detail">Product detail</string>
+    <string name="provider_detail">Provider detail</string>
+    <string name="update_provider">Edit provider</string>
+    <string name="title_activity_units">Units</string>
+    <string name="items_menu_list">Menu item</string>
+    <string name="menu_name">Menu Name</string>
+    <string name="remote_name">Remote name</string>
+    <string name="check_name">Check name</string>
+    <string name="items_menu_tittle">Menu item</string>
+    <string name="actions">Actions</string>
+    <string name="add_item_menu">Add item menu</string>
+    <string name="item_menu_information">Item menu information</string>
+    <string name="menu_price_1">Price 1</string>
+    <string name="menu_price_2">Price 2</string>
+    <string name="menu_price_3">Price 3</string>
+    <string name="menu_price_4">Price 4</string>
+    <string name="menu_price_5">Price 5</string>
+    <string name="menu_select_product">Selection of items</string>
+    <string name="menu_inventoried">Inventoried</string>
+    <string name="save_menu">Save menu</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="item_menu_detail">Detail of the item menu</string>
+    <string name="select">Select…</string>
+    <string name="departments">Departments</string>
+    <string name="user_name">User name</string>
+    <string name="todo">TODO</string>
+    <string name="live_sync">Live sync</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="already_added">already added</string>
+    <string name="product_no_price">It has no price and will not be added</string>
+    <string name="product_no_associated">does not have associated products</string>
+    <string name="add_product_invoice_message">does not have quantity in stock, do you want to add it?</string>
+    <string name="add_modifiers">Add Modifiers</string>
+    <string name="tags_no_associated">does not have associated tags</string>
+
+    <!-- Spinner sttring-array -->
+    <string-array name="product_class">
+        <item>Out of Stock</item>
+        <item>Stock</item>
+        <item>Service</item>
+        <item>Kit</item>
+        <item>Batch</item>
+        <item>Item of Menu</item>
+    </string-array>
+
+    <string-array name="product_category">
+        <item>Select a category</item>
+    </string-array>
+
+    <string-array name="product_taxes">
+        <item>0 %</item>
+        <item>6 %</item>
+        <item>12 %</item>
+    </string-array>
+
+    <string-array name="product_provider">
+        <item>Provider 1</item>
+        <item>Provider 2</item>
+        <item>Provider 3</item>
+        <item>Provider 4</item>
+        <item>Provider 5</item>
+        <item>Provider 6</item>
+    </string-array>
+
+    <string name="sale_ticket_text">Ticket#</string>
+    <string name="sale_sub_total_text">Sub total</string>
+    <string name="sale_discount_text">Discount</string>
+    <string name="sale_taxes_text">Taxes</string>
+    <string name="category_all_products">All products</string>
+    <string name="pay_btn">PAY</string>
+    <string name="add_products_before_paying">You must add products</string>
+    <string name="invoice_pay_success_message">Payment made successfully</string>
+    <string name="invoice_payment_could_not_be_made_message">Payment could not be made</string>
+    <string name="select_options">Choose an option</string>
+    <string name="modifiers_tittle">Modifiers</string>
+    <string name="back">Back</string>
+    <string name="confirm">Confirm</string>
+    <string name="payment_options">Payment options</string>
+    <string name="charge">Charge</string>
+    <string name="cash">Cash</string>
+    <string name="change">Change</string>
+    <string name="payment_options_check">Payment options  -</string>
+    <string name="done">Done</string>
+    <string name="order_total">Order Total</string>
+    <string name="example_email">example@example.com</string>
+    <string name="select_payment_method">Select a payment method</string>
+    <string name="split">Split</string>
+    <string name="hold">Hold</string>
+    <string name="print">PRINT</string>
+    <string name="discount">DSCT.</string>
+    <string name="split_tittle">Payment Options - Split Order</string>
+    <string name="invoice_split_name">Invoice name</string>
+    <string name="invoice_hold_success_message">Invoice holded</string>
+    <string name="invoice_could_not_be_holded_message">Invoice could not be holded</string>
+    <string name="retained">Retained</string>
+    <string name="retained_invoices">Retained Invoices</string>
+    <string name="reasons">Reasons</string>
+    <string name="add_customer_to_ticket">Add customer to the ticket</string>
+    <string name="customer_profile">Customer profile</string>
+    <string name="checks">Checks</string>
+    <string name="total">Total</string>
+    <string name="employee">Employee: </string>
+    <string name="name_invoice_detail">Name: </string>
+    <string name="invoice_customer_detail">Customer: </string>
+    <string name="invoice_items_detail">Items: </string>
+    <string name="owner">Owner</string>
+    <string name="write_reason">Write a reason</string>
+    <string name="save">Save</string>
+    <string name="reason_added_successfully">Reason added successfully</string>
+    <string name="successful_cancellation">Successful cancellation</string>
+    <string name="could_not_cancel">Could not cancel</string>
+    <string name="item_options_tittle">Item options</string>
+    <string name="select_tag">Select a tag</string>
+
+    <!-- Categories module -->
+    <string name="category_label">Categories</string>
+    <string name="edit_category_title">Edit category: %1$s</string>
+    <string name="no_categories_data">You have no category yet.\n To add a new category, press the (+) button</string>
+    <string name="add_category_label">Create a category</string>
+    <string name="add_item_to_category">Add items</string>
+    <string name="category_name">Category name</string>
+    <string name="save_category_button">Save</string>
+    <string name="color_category_label">Color Category</string>
+    <string name="delete_category_message">Are you sure you want to delete the %1$s category?</string>
+    <string name="save_category_success">Category saved successfully!</string>
+    <string name="delete_category_success">Category deleted successfully!</string>
+    <string name="save_category_fail">Sorry, could not save the category!</string>
+    <string name="error_server_message">Sorry, something wrong with the server!</string>
+    <string name="no_categories_to_show">No categories to show</string>
+    <string name="delete_category_fail">Sorry, could not delete the category!</string>
+    <string name="update_category_success">Category updated successfully!</string>
+    <string name="update_category_fail">Sorry, could not update the category!</string>
+    <plurals name="items_quantity">
+        <item quantity="one">%1$d item</item>
+        <item quantity="other">%1$d items</item>
+    </plurals>
+
+    <!-- Customer module -->
+    <string name="new_customer_label">New</string>
+    <string name="customer_name">First name</string>
+    <string name="customer_lastname">Last name</string>
+    <string name="customer_email">Email</string>
+    <string name="customer_phone">Phone number</string>
+    <string name="customer_added_successfully">Customer added successfully!</string>
+    <string name="transfer_check">Transfer Check</string>
+    <string name="order_type">Order Type</string>
+    <string name="cancellations">Void</string>
+    <string name="tax_exempt">Tax Exempt</string>
+    <string name="gratuity">Gratuity</string>
+    <string name="check_options">Check options</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="gratuities_options">Gratuities options</string>
+    <string name="register_sales">Register sales</string>
+    <string name="cash_drawer">Cash drawer</string>
+    <string name="tips">Tips</string>
+    <string name="inventory">Inventory</string>
+    <string name="costumer">Costumer</string>
+    <string name="employee_dashboard">Employee</string>
+    <string name="reports">Reports</string>
+    <string name="settings">Settings</string>
+    <string name="dashboard_tittle">Dashboard</string>
+    <string name="performance">Performance</string>
+    <string name="net_sale">Net sale</string>
+    <string name="credit_card">Credit card</string>
+    <string name="house_account">House account</string>
+    <string name="labor">Labor</string>
+    <string name="voids">Voids</string>
+    <string name="comps">Comps</string>
+    <string name="discounts">Discounts</string>
+    <string name="refunds">Refunds</string>
+    <string name="paid_outs">Paid outs</string>
+    <string name="averages">Averages</string>
+    <string name="guests">Guests</string>
+    <string name="top_five_items">Top 5 items</string>
+    <string name="item">Item</string>
+    <string name="add_customer">Add Customer</string>
+    <string name="balance_due">Balance Due</string>
+    <string name="quantity_large">Quantity</string>
+    <string name="repeat">Repeat</string>
+    <string name="kitchen_comment">Kitchen comment</string>
+    <string name="fire">Fire</string>
+    <string name="resend">Resend</string>
+    <string name="price_override">Price override</string>
+    <string name="to_go">To go</string>
+    <string name="logout">Log Out</string>
+    <string name="sync">Sync</string>
+    <string name="quick_edit">Quick edit</string>
+    <string name="comment">Comment</string>
+    <string name="comment_price">Price</string>
+    <string name="comment_text">Write your comment…</string>
+    <string name="add">Add</string>
+    <string name="shift">Shift</string>
+    <string name="no_sale">No sale</string>
+    <string name="close_shift">Close shift</string>
+    <string name="cash_in_drawer">Cash in drawer</string>
+    <string name="opening_amount">Opening amount</string>
+    <string name="total_sale">Total sale</string>
+    <string name="amount_due">Amount due</string>
+    <string name="card">Card</string>
+    <string name="amount">Amount</string>
+    <string name="clear">clear</string>
+    <string name="enter">enter</string>
+    <string name="invoice">Invoice *</string>
+    <string name="contact">Contact</string>
+    <string name="saved_successfully">Saved successfully</string>
+    <string name="cant_save">Can not save</string>
+    <string name="you_must_place_amount">You must place an amount</string>
+    <string name="set_price">Set price</string>
+    <string name="set_Quantity">Set Quantity</string>
+    <string name="open_shift">Open shift</string>
+    <string name="open">Open</string>
+    <string name="starting_bank">Starting bank</string>
+    <string name="close">Close</string>
+    <string name="amount_declared">Amount declared</string>
+    <string name="assign_cashier">Assign cashier</string>
+    <string name="close_day">Close day</string>
+    <string name="coins">Coins</string>
+    <string name="bills">Bills</string>
+    <string name="invalid_pin">Invalid PIN</string>
+    <string name="place_PIN">You must place a PIN</string>
+    <string name="total_amount">Total amount</string>
+    <string name="turn_not_be_opened">The turn could not be opened</string>
+    <string name="turn_not_be_closed">The turn could not be closed</string>
+    <string name="error_occurred_open_shift">An error occurred while preloading open shift</string>
+    <string name="recall_item">Recall</string>
+
+    <!-- taxt Exempt Options -->
+
+    <string name="food_taxt">Food Tax</string>
+    <string name="bar_taxt">Bar Tax</string>
+    <string name="miami_taxt">Miami Tax</string>
+    <string name="plastic_taxt">Plastic Tax</string>
+    <string name="payment_options_split_check">Payment Options</string>
+    <string name="split_ticket">Split Ticket</string>
+    <string name="split_item">Split Item</string>
+    <string name="split_done">Done</string>
+    <string name="split_combine">Combine</string>
+    <string name="split_evenly">Split Evenly</string>
+    <string name="unsplit_item">Unsplit Item</string>
+    <string name="split_in">Split In</string>
+    <string name="add_number">Add a number</string>
+    <string name="split_check_success">Split check success</string>
+    <string name="new_check">New Check</string>
+    <string name="select_item">Select an item</string>
+    <string name="recall_btn">Recall</string>
+    <string name="num">01</string>
+    <string name="dine_in">Dine In</string>
+
+    <!-- Refunds Activity -->
+    <string name="sales_tax">Sales Tax</string>
+    <string name="search_ticket">Search Ticket</string>
+    <string name="closed">Closed</string>
+    <string name="check_num">Check #</string>
+    <string name="date_time">Date / Time</string>
+    <string name="employee_table">Employee</string>
+    <string name="table_customer">Table / Customer</string>
+    <string name="status_txt">Status</string>
+    <string name="refund">Refund</string>
+    <string name="reopen">Reopen</string>
+    <string name="reprint">Reprint</string>
+    <string name="split_payment">Split payment</string>
+    <string name="balance">Balance</string>
+    <string name="billing_modes">Billing modes</string>
+    <string name="email">Email:</string>
+    <string name="text_message">Text message</string>
+
+    <string name="you_must_date">You must place a start date</string>
+    <string name="this_date_earlier">This date is earlier</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="this_week">This Week</string>
+    <string name="last_week">Last Week</string>
+    <string name="last_month">Last Month</string>
+    <string name="delivery">Delivery</string>
+
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="start_hour">Start Time</string>
+    <string name="end_hour">End Time</string>
+    <string name="payment_type">Payment Type</string>
+    <string name="advance_filter">Advanced Filter</string>
+    <string name="customer">Customer</string>
+    <string name="c_c_last">C/C Last 4 Digits</string>
+    <string name="information">You have not entered information</string>
+    <string name="not_closed">This invoices is not closed</string>
+    <string name="back_inventory">Back To Inventory</string>
+    <string name="waste">Waste</string>
+    <string name="no_changes">No Changes</string>
+    <string name="refund_sucess">item returned successfully</string>
+    <string name="refund_fail">The item could not be returned</string>
+    <string name="refund_fail_service">There has been a service failure</string>
+    <string name="move_here">Move here</string>
+    <string name="invalid_hour">Invalid hour</string>
+    <string name="add_new_customer">Add New Customer</string>
+    <string name="customer_plural">Customers</string>
+    <string name="last_visit">Last visit</string>
+    <string name="total_visits">Total visits</string>
+    <string name="loyalty_points">Loyalty Points</string>
+    <string name="avg_spent">Avg Spent</string>
+    <string name="total_spent">Total Spent</string>
+    <string name="order_history">Order History</string>
+    <string name="add_to_order">Add To Order</string>
+    <string name="edit_profile">Edit Profile</string>
+
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone #</string>
+    <string name="customer_address">Address</string>
+    <string name="customer_city">City</string>
+    <string name="customer_state">State</string>
+    <string name="customer_id">Customer ID</string>
+    <string name="zip_code">ZIP Code</string>
+    <string name="date_txt">Date</string>
+    <string name="remove_from_order">Remove From Order</string>
+
+    <string name="update_success">updated successfully</string>
+    <string name="update_fail">Could not update</string>
+    <string name="add_success">Added successfully</string>
+    <string name="add_fail">Could not Added</string>
+    <string name="data_incomplete">Incomplete Data</string>
+    <string name="pay">Pay</string>
+    <string name="payment">payment</string>
+    <string name="send_email">Send email</string>
+    <string name="user_email">User email</string>
+    <string name="you_must_place_email">You must place an email</string>
+    <string name="business_name">Business name</string>
+    <string name="head_tittle">Head tittle</string>
+    <string name="employee_name">Employee name</string>
+    <string name="food">Food</string>
+    <string name="others">OTHERS$</string>
+    <string name="sale_mb_tax">Sales/MB Tax</string>
+    <string name="total_due">Total due</string>
+    <string name="footer_pre_view_check">FOOTER</string>
+    <string name="connect_printer">Please connect to USB printer!</string>
+    <string name="connected_printer">Connected printer!</string>
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+    <string name="refund_item_d">R</string>
+    <string name="quick_amount">Quick amount</string>
+    <string name="payments_tittle">Payments</string>
+    <string name="select_check">Select an check</string>
+    <string name="invoice_vois">Invoice override successfully</string>
+    <string name="void_message_empty">You must select items</string>
+    <string name="void_item_v">V</string>
+    <string name="its_closed">This invoices is closed</string>
+    <string name="enter_pin">Please enter PIN</string>
+    <string name="its_not_hold">This invoice is not on hold</string>
+    <string name="not_shift_opened">the shift has not been opened</string>
+    <string name="shift_opened">the shift has been opened</string>
+    <string name="shift_closed">the shift has been closed</string>
+    <string name="message_question">Are you sure you want to delete</string>
+    <string name="message_delete">DELETE</string>
+    <string name="message_cancel">CANCEL</string>
+    <string name="message_void">VOID</string>
+    <string name="message_title">Delete from Ticket</string>
+    <string name="delete_void_item">You can\'t delete this void Item</string>
+    <string name="delete_selected_items">the selected Items</string>
+    <string name="cancel_from_ticket">Void from Ticket</string>
+    <string name="question_cancel_dialog_message">Are you sure you want to void</string>
+    <string name="no_items_found">No items founded</string>
+    <string name="delete_modifier">Delete Modifier</string>
+    <string name="send_button">SEND</string>
+    <string name="recall_button">RECALL</string>
+    <string name="cashier">Cashier:</string>
+    <string name="delete_payment">Delete Payment</string>
+    <string name="send_email_message">Send Email</string>
+    <string name="send_text_message">Send Text Message</string>
+    <string name="send_print_button">SEND AND PRINT</string>
+    <string name="send_email_uppercase">SEND EMAIL</string>
+    <string name="send_text_uppercase">SEND TEXT</string>
+    <string name="no_print">NO PRINT</string>
+    <string name="cash_payment">Cash Payment</string>
+    <string name="split_payment_uppercase">SPLIT PAYMENT</string>
+    <string name="confirm_payment_tip">CONFIRM PAYMENT</string>
+    <string name="warning">Warning!</string>
+    <string name="open_shift_message">Please open the shift first</string>
+    <string name="save_add_button"><![CDATA[SAVE & ADD TO TICKET]]></string>
+    <string name="void_close"><![CDATA[VOID & CLOSE]]></string>
+
+    <string-array name="invoiceStatus">
+        <item>All</item>
+        <item>Open</item>
+        <item>Closed</item>
+    </string-array>
+
+    <array name="CommTypes">
+        <item>UART</item>
+        <item>TCP</item>
+        <item>BLUETOOTH</item>
+        <item>SSL</item>
+        <item>HTTP</item>
+        <item>HTTPS</item>
+        <item>USB</item>
+        <item>AIDL</item>
+    </array>
+
+    <array name="BaudRate_new">
+        <item>"9600"</item>
+        <item>"115200"</item>
+    </array>
+
+    <array name="EnableProxy">
+        <item>ON</item>
+        <item>OFF</item>
+    </array>
+
+    <array name="TenderType">
+        <item>CREDIT</item>
+        <item>DEBIT</item>
+        <item>GIFT</item>
+    </array>
+
+    <array name="TransType">
+        <item>SALE</item>
+        <item>RETURN</item>
+        <item>VOID SALE</item>
+        <item>ADJUST</item>
+    </array>
+
+    <array name="Printer_connection">
+        <item>TCP/IP</item>
+        <item>USB</item>
+    </array>
+
+    <string name="activity_main_originalsize">OriginalSize:</string>
+    <string name="activity_main_minifront">MiniFront:</string>
+    <string name="activity_main_heightsize">HeightSize:</string>
+    <string name="activity_main_widthsize">WidthSize:</string>
+    <string name="activity_main_heightwidthsize">HeightWidthSize:</string>
+    <string name="activity_main_bold">Blod:</string>
+    <string name="activity_main_underline">Underline:</string>
+    <string name="welcome_to_juvopos">WELCOME TO JUVOPOS</string>
+    <string name="please_enter_your_pin_code_to_identify_this_tablet">Please enter your PIN Code to identify this tablet</string>
+    <string name="enter_pin_new">Enter PIN</string>
+    <string name="enter_your_pin_to_log_in">Enter your PIN to Log In</string>
+    <string name="failed_registration">Failed to register this device in Store</string>
+    <string name="network_connection_error">Network connection error</string>
+    <string name="http_connection_error">HTTP connection error</string>
+    <string name="please_enter_a_valid_pin">Please enter a valid PIN</string>
+    <string name="welcome_registration">Welcome,</string>
+    <string name="enter_your_pin_to_continue">Enter your PIN to continue</string>
+    <string name="time_clock">Time Clock</string>
+
+    <array name="Languages">
+        <item>English</item>
+        <item>Spanish</item>
+    </array>
+
+    <!-- batch -->
+    <string name="batch_request_transType">Command Type</string>
+    <string name="batch_request_edcType">EDC Type</string>
+    <string name="batch_request_timestamp">Timestamp</string>
+    <string name="batch_request_SAFIndicator">SAF Indicator</string>
+    <string name="batch_request_extdata">ExtData</string>
+    <string name="batch_response_resultCode">Result Code</string>
+    <string name="batch_response_resultTxt">Result Txt</string>
+    <string name="batch_response_creditCount">Credit Count</string>
+    <string name="batch_response_creditAmount">Credit Amount</string>
+    <string name="batch_response_debitCount">Debit Count</string>
+    <string name="batch_response_debitAmount">Debit Amount</string>
+    <string name="batch_response_ebtCount">EBT Count</string>
+    <string name="batch_response_ebtAmount">EBT Amount</string>
+    <string name="batch_response_giftCount">Gift Count</string>
+    <string name="batch_response_giftAmount">Gift Amount</string>
+    <string name="batch_response_loyaltyCount">Loyalty Count</string>
+    <string name="batch_response_loyaltyAmount">Loyalty Amount</string>
+    <string name="batch_response_cashCount">Cash Count</string>
+    <string name="batch_response_cashAmount">Cash Amount</string>
+    <string name="batch_response_checkCount">CHECK Count</string>
+    <string name="batch_response_checkAmount">CHECK Amount</string>
+    <string name="batch_response_timestamp">Timestamp</string>
+    <string name="batch_response_tid">TID</string>
+    <string name="batch_response_mid">MID</string>
+    <string name="batch_response_hostTraceNum">Host Trace Num</string>
+    <string name="batch_response_batchNum">Batch Num</string>
+    <string name="batch_response_authCode">Auth Code</string>
+    <string name="batch_response_hostCode">Host Code</string>
+    <string name="batch_response_hostResponse">Host Response</string>
+    <string name="batch_response_message">Message</string>
+    <string name="batch_response_extData">Ext Data</string>
+
+    <!-- SAF Information -->
+    <string name="batch_response_SAFTotalCnt">SAF Total Count</string>
+    <string name="batch_response_SAFTotalAmt">SAF Total Amt</string>
+    <string name="batch_response_UploadRecords">SAF Uploaded Count</string>
+    <string name="batch_response_UploadAmt">SAF Uploaded Amount</string>
+    <string name="batch_response_FailedRecords">SAF Failed Count</string>
+    <string name="batch_response_TotalFailed">SAF Failed Total</string>
+    <string name="batch_response_DeleteRecords">SAF Deleted Count</string>
+    <string name="batch_response_BatchFailedRefNum">Batch Failed RefNum</string>
+    <string name="batch_response_BatchFailedCount">Batch Failed Count</string>
+
+    <string name="batch_process_prompt">Please wait while processing</string>
+
+    <string-array name="batch_trans">
+        <item>BATCHCLOSE</item>
+        <item>FORCEBATCHCLOSE</item>
+        <item>BATCHCLEAR</item>
+        <item>PURGEBATCH</item>
+        <item>SAFUPLOAD</item>
+        <item>DELETESAFFILE</item>
+        <item>DELETETRANSACTION</item>
+    </string-array>
+
+    <string name="hint_select">--Please Select--</string>
+    <string name="versionText">V 1.1.0</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

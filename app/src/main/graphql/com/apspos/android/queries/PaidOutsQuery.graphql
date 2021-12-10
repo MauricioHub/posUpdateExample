@@ -1,0 +1,21 @@
+query PaidOutsQuery ($filter: String!, $storeId: String!) {
+    paidOuts (filter: $filter, storeId: $storeId) {
+        id
+        reason
+        invoiceId
+        amount
+        contact
+        comment
+        shiftId
+        paidOutOption {
+            id
+            name
+            managerApproval
+            openCashDrawer
+            requireInvoice
+            requireContact
+            requireComment
+        }
+        status
+    }
+}

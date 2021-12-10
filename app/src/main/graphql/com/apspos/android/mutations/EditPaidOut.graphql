@@ -1,0 +1,10 @@
+mutation EditPaidOut ($attributes: PaidOutInput!, $id: ID!) {
+    editPaidOut(attributes: $attributes, id: $id) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+    }
+}

@@ -1,0 +1,11 @@
+mutation AddPaidOut ($attributes: PaidOutInput!) {
+    addPaidOut(attributes: $attributes) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+        id
+    }
+}

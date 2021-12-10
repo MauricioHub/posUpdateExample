@@ -1,0 +1,40 @@
+query RefundsQuery ($filter: String!, $storeId: String!) {
+    refunds (filter: $filter, storeId: $storeId) {
+        id
+        invoiceId
+        amount
+        status
+        shiftId
+        paymentResponse{
+            resultCode
+            resultTxt
+            authCode
+            approvedAmt
+            avsResponse
+            bogusAccount
+            cardType
+            cvResponse
+            hostCode
+            hostResponse
+            message
+            refNum
+            remainingBalance
+            extraBalance
+            requestedAmount
+            timeStamp
+            sigFile
+            signData
+            extData
+        }
+        payment {
+            id
+            name
+            description
+            paymentMethod {
+                id
+                code
+                name
+            }
+        }
+    }
+}

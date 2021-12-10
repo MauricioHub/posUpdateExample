@@ -1,0 +1,6 @@
+query BreaksQuery ($store_id: String!, $employee_id: ID!) {
+    scheduleBreaks (storeId: $store_id, employeeId: $employee_id) {
+        breakInTime
+        breakOutTime
+    }
+}

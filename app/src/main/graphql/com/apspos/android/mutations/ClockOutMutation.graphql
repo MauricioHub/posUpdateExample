@@ -1,0 +1,14 @@
+mutation ClockOutMutation ($pin: String!, $storeId: String!) {
+    clockOut(pin: $pin, storeId: $storeId) {
+        success
+        message
+        isClocking
+        dailyHours
+        totalHours
+        clockIn
+        lastClockOut
+        error
+        openShift
+        serverBank
+    }
+}

@@ -1,0 +1,10 @@
+mutation ResendMenuItemsMutation ($attributes: ResendMenuItemInput!) {
+    resendMenuItems(attributes: $attributes) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+    }
+}

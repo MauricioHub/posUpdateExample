@@ -1,0 +1,12 @@
+query CashDiscoutnQuery($storeId: String!) {
+    cashDiscountActive(storeId: $storeId) {
+        id
+        name
+        value
+        includeCashDiscount
+        percentage
+        useCashDiscount
+        isActive
+        showDialog
+    }
+}

@@ -1,0 +1,12 @@
+query DiscountQuery($storeId: String!){
+    discounts(storeId: $storeId) {
+        id
+        name
+        type
+        discountPercentage
+        value
+        managerApproval
+        taxIncluded
+        openPrice
+    }
+}

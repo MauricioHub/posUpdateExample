@@ -1,0 +1,29 @@
+mutation RegisterLicenseDeviceMutation ($attributes: DeviceRegisterInput!) {
+    registerLicenseDevice(attributes: $attributes) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+        deviceId
+        name
+        number
+        token
+        type
+        availableDevices
+        isLicensed
+        store {
+            id
+            accountId
+            storeId
+            installationCode
+            strongId
+            deviceNumber
+            licenseModule
+            imageUrl
+            imagePath
+            name
+        }
+    }
+}

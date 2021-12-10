@@ -1,0 +1,16 @@
+query ShiftsQuery($date_start: String, $date_end: String, $device_id: String, $storeId: String!, $employeeId: ID){
+    shifts (dateStart: $date_start, dateEnd: $date_end, deviceId: $device_id, storeId: $storeId, employeeId: $employeeId) {
+        id
+        name
+        dateOpen
+        dateClose
+        opener {
+            firstname
+            lastname
+        }
+        closer{
+            firstname
+            lastname
+        }
+    }
+}

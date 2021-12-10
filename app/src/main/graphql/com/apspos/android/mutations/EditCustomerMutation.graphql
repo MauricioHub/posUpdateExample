@@ -1,0 +1,17 @@
+mutation EditCustomerMutation($attributes: CustomerInput!, $id: ID!) {
+    editCustomer(attributes: $attributes, id: $id) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+        customer {
+            id
+            firstname
+            lastname
+            email
+            phone
+        }
+    }
+}

@@ -1,0 +1,11 @@
+query CategoryDailyReportsQuery ($date_start: String, $date_end: String, $shift_id: String, $store_id: String!){
+    categoryReports (dateStart: $date_start, dateEnd: $date_end, shiftId: $shift_id, storeId: $store_id) {
+        name
+        quantity
+        grossSale
+        salePercentage
+        totalDiscounts
+        quantityDiscount
+        netsale
+    }
+}

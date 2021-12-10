@@ -1,0 +1,19 @@
+mutation AddDepositMutation ($attributes: DepositInput!) {
+    addDeposit(attributes: $attributes) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+        deposit{
+            id
+            storeId
+            date
+            cash
+            check
+            status
+            comment
+        }
+    }
+}

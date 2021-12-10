@@ -1,0 +1,18 @@
+mutation AddCustomerMutation($attributes: CustomerInput!) {
+    addCustomer(attributes: $attributes) {
+        success
+        message
+        errors {
+            message
+            path
+        }
+        customer {
+            id
+            firstname
+            lastname
+            email
+            phone
+        }
+
+    }
+}

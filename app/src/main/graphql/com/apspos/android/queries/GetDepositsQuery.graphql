@@ -1,0 +1,11 @@
+query GetDepositsQuery ($filter: String, $store_id: String!) {
+    deposits (filter: $filter, storeId: $store_id) {
+        id
+        storeId
+        date
+        cash
+        check
+        status
+        comment
+    }
+}

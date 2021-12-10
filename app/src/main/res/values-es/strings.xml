@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JuvoPos</string>
+    <string name="prompt_login">Nombre de usuario o correo electrónico</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_login">Ingresar</string>
+    <string name="menu_logout">Salir</string>
+    <string name="inventory_qsr_btn">Inventario</string>
+    <string name="inventory_qsr_list">Listado de productos</string>
+    <string name="add_product">Agregar producto</string>
+    <string name="code_product">Código</string>
+    <string name="description_product">Descripción</string>
+    <string name="quantity_product">Cant</string>
+    <string name="quantity_product_pcs">PCS</string>
+    <string name="cost_product">Costo</string>
+    <string name="price_product">Precio</string>
+    <string name="total_cost_product">Costo total</string>
+    <string name="total_product">Total</string>
+    <string name="coin_usd">USD</string>
+    <string name="save_product_btn">Agregar</string>
+    <string name="help">Ayuda</string>
+    <string name="edit_product">Editar</string>
+    <string name="delete_product">Eliminar</string>
+    <string name="edit_product_tittle">Editar producto</string>
+    <string name="yes">SI</string>
+    <string name="no">NO</string>
+    <string name="navigation_drawer_open">Abrir el menu de navegacion</string>
+    <string name="navigation_drawer_close">Cerrar el menu de navegacion</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Encabezado de navegación</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Galería</string>
+    <string name="menu_slideshow">Diapositivas</string>
+    <string name="menu_tools">Herramientas</string>
+    <string name="menu_share">Compartir</string>
+    <string name="menu_send">Enviar</string>
+    <string name="action_settings">Configuración</string>
+    <string name="delete_message">Estas seguro que deseas eliminar </string>
+    <string name="confirmation_message">Confirmación</string>
+    <string name="delete_message_finish">elimidado correctamente</string>
+    <string name="delete_message_finish_detail">Estas seguro que deseas eliminar este producto ?</string>
+    <string name="product_size">Talla</string>
+    <string name="product_sku">SKU</string>
+    <string name="product_ebt">EBT</string>
+    <string name="product_wic">WIC</string>
+    <string name="product_ship_only">Solo para envío</string>
+    <string name="product_for_sale">En venta</string>
+    <string name="product_finished">Producto terminado</string>
+    <string name="product_status">Estados del producto</string>
+    <string name="save_product">Guardar producto</string>
+    <string name="go_to_stock">Ir a stock</string>
+    <string name="update_product">Editar producto</string>
+    <string name="name_product">Nombre</string>
+    <string name="title_activity_goto_stock">Ir al stock</string>
+    <string name="list_item_stock">Listado de item en stock</string>
+    <string name="add_item">Agregar item</string>
+    <string name="save_item">Guardar item</string>
+    <string name="add_item_stock">Agregar item (stock)</string>
+    <string name="delete_message_finish_detail_item_stock">Estás seguro de que quieres eliminar este item del stock ?</string>
+    <string name="delete_message_item_stock">Estas seguro que deseas eliminar el item</string>
+    <string name="update_item">Editar item</string>
+    <string name="hint_search">Buscar</string>
+    <string name="inventory_tittle">Inventario</string>
+    <string name="items_list">Items</string>
+    <string name="empty_data">No posee datos para mostrar</string>
+    <string name="numeral">#</string>
+    <string name="categories_list">Categorias</string>
+    <string name="recipe_list">Recipe</string>
+    <string name="provider_list">Proveedor</string>
+    <string name="categories">Categorias</string>
+    <string name="product_image">Seleccione una imagen</string>
+    <string name="manufacturers_code">Código del fabricante</string>
+    <string name="product_ingredient">Ingrediente</string>
+    <string name="product_active">Activo</string>
+    <string name="product_age_verification">Verificación de edad</string>
+    <string name="product_sold_by_weight">Venta por peso</string>
+    <string name="product_class_tittle">Clase</string>
+    <string name="product_suppliers_part_number">Número parte proveedor</string>
+    <string name="product_taxes_tittle">Impuestos</string>
+    <string name="product_provider_tittle">Proveedor</string>
+    <string name="product_last_cost">Último costo</string>
+    <string name="product_location">Ubicación</string>
+    <string name="product_code_upc_1">Código UPC 1</string>
+    <string name="product_code_upc_2">Código UPC 2</string>
+    <string name="product_minimum_age">Edad mínima</string>
+    <string name="product_creation_date">Fecha de creación</string>
+    <string name="product_last_edition_date">Última fecha de edición</string>
+    <string name="product_average_cost">Costo promedio</string>
+    <string name="location_provider">Direccion</string>
+    <string name="phone_provider">Telefono</string>
+    <string name="website_provider">Sitio web</string>
+    <string name="providers_tittle">Proveedores</string>
+    <string name="add_provider">Agregar proveedor</string>
+    <string name="save_provider">Guardar proveedor</string>
+    <string name="provider_information">Información del proveedor</string>
+    <string name="provider_location">Dirección</string>
+    <string name="provider_phone">Celular</string>
+    <string name="provider_website">Sitio web</string>
+    <string name="provider_contact_person_information">Información de persona de contacto</string>
+    <string name="provider_name_contact">Nombre de contacto</string>
+    <string name="provider_position_contact">Cargo del contacto</string>
+    <string name="provider_phone_contact">Teléfono del contacto</string>
+    <string name="provider_email_contact">Email del contacto</string>
+    <string name="product_detail">Detalle del producto</string>
+    <string name="provider_detail">Detalle del proveedor</string>
+    <string name="update_provider">Editar proveedor</string>
+    <string name="title_activity_units">Unidades</string>
+    <string name="items_menu_list">Menu item</string>
+    <string name="menu_name">Nombre de menu</string>
+    <string name="remote_name">Descripcion</string>
+    <string name="check_name">Nombre de impresión</string>
+    <string name="items_menu_tittle">Menu item</string>
+    <string name="actions">Acciones</string>
+    <string name="add_item_menu">Agregar item menu</string>
+    <string name="item_menu_information">Informacion del item menu</string>
+    <string name="menu_price_1">Precio 1</string>
+    <string name="menu_price_2">Precio 2</string>
+    <string name="menu_price_3">Precio 3</string>
+    <string name="menu_price_4">Precio 4</string>
+    <string name="menu_price_5">Precio 5</string>
+    <string name="menu_select_product">Seleccion de items</string>
+    <string name="menu_inventoried">inventariado</string>
+    <string name="save_menu">Guardar menu</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancelar</string>
+    <string name="item_menu_detail">Detalle del item menu</string>
+    <string name="select">Seleccione…</string>
+    <string name="departments">Departamentos</string>
+    <string name="user_name">Nombre del usuario</string>
+    <string name="todo">TODO</string>
+    <string name="live_sync">Sincronización en vivo</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="sale_ticket_text">Check#</string>
+    <string name="sale_sub_total_text">Sub total</string>
+    <string name="sale_discount_text">Descuento</string>
+    <string name="sale_taxes_text">Impuestos</string>
+    <string name="already_added">ya se encuentra agregado</string>
+    <string name="product_no_price">no posee precio y no será agregado</string>
+    <string name="product_no_associated">no posee productos asociados</string>
+    <string name="category_all_products">Todos los productos</string>
+    <string name="pay_btn">PAGAR</string>
+    <string name="add_product_invoice_message">no posee cantidad en stock, desea agregarlo?</string>
+    <string name="add_products_before_paying">Debes añadir productos</string>
+    <string name="invoice_pay_success_message">Pago realizado con exito</string>
+    <string name="invoice_payment_could_not_be_made_message">No se pudo realizar el pago</string>
+    <string name="select_options">Seleccione una opción</string>
+    <string name="add_modifiers">Agregar Modificadores</string>
+    <string name="modifiers_tittle">Modificadores</string>
+    <string name="back">Atrás</string>
+    <string name="confirm">Confirmar</string>
+    <string name="tags_no_associated">no posee etiquetas asociadas</string>
+    <string name="payment_options">Opciones de pago</string>
+    <string name="charge">Cargar</string>
+    <string name="cash">Efectivo</string>
+    <string name="change">Cambio</string>
+    <string name="payment_options_check">Opciones de pago  -</string>
+    <string name="done">Hecho</string>
+    <string name="order_total">Orden total</string>
+    <string name="example_email">ejemplo@ejemplo.com</string>
+    <string name="select_payment_method">Seleccione un método de pago</string>
+    <string name="split">DIV.</string>
+    <string name="hold">RET.</string>
+    <string name="print">IMPR.</string>
+    <string name="discount">DSCT.</string>
+    <string name="split_tittle">Opciones de pago - Orden dividida</string>
+    <string name="invoice_split_name">Nombre de la factura</string>
+    <string name="invoice_hold_success_message">Factura retenida</string>
+    <string name="invoice_could_not_be_holded_message">La factura no se pudo retener</string>
+    <string name="retained">Retenidas</string>
+    <string name="retained_invoices">Facturas retenidas</string>
+    <string name="reasons">Razones</string>
+    <string name="add_customer_to_ticket">Añadir cliente a la factura</string>
+    <string name="customer_profile">Customer profile</string>
+    <string name="checks">Facturas</string>
+    <string name="total">Total</string>
+    <string name="employee">Empleado: </string>
+    <string name="name_invoice_detail">Nombre: </string>
+    <string name="invoice_customer_detail">Cliente: </string>
+    <string name="invoice_items_detail">Articulos: </string>
+    <string name="owner">Propietario</string>
+    <string name="write_reason">Escribe una razon</string>
+    <string name="save">Guardar</string>
+    <string name="reason_added_successfully">Razon agregada con exito</string>
+    <string name="successful_cancellation">Anulación exitosa</string>
+    <string name="could_not_cancel">No se pudo anular</string>
+    <string name="item_options_tittle">Opciones del articulo</string>
+    <string name="select_tag">Seleccione una etiqueta</string>
+    <!-- Spinner string-array -->
+    <string-array name="product_class">
+        <item>Sin Stock</item>
+        <item>Stock</item>
+        <item>Servicio</item>
+        <item>Kit</item>
+        <item>Batch</item>
+        <item>Item de Menu</item>
+    </string-array>
+
+    <string-array name="product_category">
+        <item>Seleccione una categoría</item>
+    </string-array>
+
+    <string-array name="product_provider">
+        <item>Proveedor 1</item>
+        <item>Proveedor 2</item>
+        <item>Proveedor 3</item>
+        <item>Proveedor 4</item>
+        <item>Proveedor 5</item>
+        <item>Proveedor 6</item>
+    </string-array>
+
+    <!-- Categories module -->
+    <string name="category_label">Categorías</string>
+    <string name="edit_category_title">Editar categoría: %1$s</string>
+    <string name="no_categories_data">Aun no tienes categorías. \n Para agregar una nueva categoría, presione el botón (+)</string>
+    <string name="add_category_label">Crear una categoría</string>
+    <string name="add_item_to_category">Asignar artículos</string>
+    <string name="category_name">Nombre de la categoría</string>
+    <string name="save_category_button">Guardar</string>
+    <string name="color_category_label">Color de la categoría</string>
+    <string name="delete_category_message">¿Estás seguro que quieres eliminar la categoría %1$s?</string>
+    <string name="save_category_success">¡Categoría guardada exitosamente!</string>
+    <string name="delete_category_success">¡Categoría eliminada exitosamente!</string>
+    <string name="save_category_fail">¡Lo siento, no se pudo guardar la categoría!</string>
+    <string name="error_server_message">¡Lo siento, hay un problema con el servidor!</string>
+    <string name="no_categories_to_show">No hay categorías para mostrar</string>
+    <string name="delete_category_fail">¡Lo siento, no se pudo eliminar la categoría!</string>
+    <string name="update_category_success">¡Categoría actualizada exitosamente!</string>
+    <string name="update_category_fail">¡Lo siento, no se pudo actualizar la categoría!</string>
+    <plurals name="items_quantity">
+        <item quantity="one">%1$d artículo</item>
+        <item quantity="other">%1$d artículos</item>
+    </plurals>
+    <!-- Customer module -->
+    <string name="new_customer_label">Nuevo</string>
+    <string name="customer_name">Nombre</string>
+    <string name="customer_lastname">Apellidos</string>
+    <string name="customer_email">Correo Electrónico</string>
+    <string name="customer_phone">Teléfono</string>
+    <string name="customer_added_successfully">¡Cliente guardado exitosamente!</string>
+    <string name="transfer_check">Transferir factura</string>
+    <string name="order_type">Tipo de orden</string>
+    <string name="cancellations">Anulaciones</string>
+    <string name="tax_exempt">Exento impuestos</string>
+    <string name="gratuity">Propina</string>
+    <string name="check_options">Opciones de la factura</string>
+    <string name="gratuities_options">Opciones de propinas</string>
+    <string name="register_sales">Registrar ventas</string>
+    <string name="cash_drawer">Cajón de dinero</string>
+    <string name="tips">Propinas</string>
+    <string name="inventory">Inventario</string>
+    <string name="costumer">Cliente</string>
+    <string name="employee_dashboard">Empleado</string>
+    <string name="reports">Reportes</string>
+    <string name="settings">Ajustes</string>
+    <string name="dashboard_tittle">Menu principal</string>
+    <string name="performance">Desempeño</string>
+    <string name="net_sale">Venta neta</string>
+    <string name="credit_card">Tarjeta de credito</string>
+    <string name="house_account">Cuenta de la casa</string>
+    <string name="labor">Labor</string>
+    <string name="voids">Anulaciones</string>
+    <string name="comps">Comps</string>
+    <string name="discounts">Descuentos</string>
+    <string name="refunds">Devoluciones</string>
+    <string name="paid_outs">Pagos externos</string>
+    <string name="averages">Promedios</string>
+    <string name="guests">Invitados</string>
+    <string name="top_five_items">Top 5 articulos</string>
+    <string name="item">Articulo</string>
+    <string name="add_customer">Agregar cliente</string>
+    <string name="balance_due">Saldo deudor</string>
+    <string name="quantity_large">Cantidad</string>
+    <string name="repeat">Repetir</string>
+    <string name="kitchen_comment">Comentario de cocina</string>
+    <string name="fire">Fuego</string>
+    <string name="resend">Reenviar</string>
+    <string name="price_override">Sobrescribir precio</string>
+    <string name="to_go">Para llevar</string>
+    <string name="logout">Cerrar sesion</string>
+    <string name="sync">Sincronizar</string>
+    <string name="quick_edit">Edicion rápida</string>
+    <string name="comment">Comentario</string>
+    <string name="comment_price">Precio</string>
+    <string name="comment_text">Escriba su comentario…</string>
+    <string name="add">Agregar</string>
+    <string name="shift">Turno</string>
+    <string name="no_sale">No se vende</string>
+    <string name="close_shift">Cerrar turno</string>
+    <string name="cash_in_drawer">Efectivo en el cajón</string>
+    <string name="opening_amount">Cantidad de apertura</string>
+    <string name="total_sale">Venta total</string>
+    <string name="amount_due">Monto adeudado</string>
+    <string name="card">Tarjeta</string>
+    <string name="amount">Cantidad</string>
+    <string name="clear">clear</string>
+    <string name="enter">enter</string>
+    <string name="invoice">Factura *</string>
+    <string name="contact">Contacto</string>
+    <string name="saved_successfully">Guardado exitoso</string>
+    <string name="cant_save">No se puede guardar</string>
+    <string name="you_must_place_amount">Debe colocar una cantidad</string>
+    <string name="set_price">Fijar precio</string>
+    <string name="open_shift">Abrir turno</string>
+    <string name="open">Abrir</string>
+    <string name="starting_bank">Banco inicial</string>
+    <string name="close">Cerrar</string>
+    <string name="amount_declared">Cantidad declarada</string>
+    <string name="assign_cashier">Asignar cajero</string>
+    <string name="close_day">Día de cierre</string>
+    <string name="coins">Monedas</string>
+    <string name="invalid_pin">PIN Inválido</string>
+    <string name="place_PIN">Debe colocar un PIN</string>
+    <string name="bills">Billetes</string>
+    <string name="total_amount">Cantidad total</string>
+    <string name="turn_not_be_opened">No se pudo abrir el turno</string>
+    <string name="turn_not_be_closed">No se pudo cerrar el turno</string>
+    <string name="error_occurred_open_shift">Ha ocurrido un error al precargar turno abierto</string>
+    <string name="set_Quantity">Cantidad</string>
+    <string name="recall_item">Retenidas</string>
+
+    <!-- taxt Exempt Options -->
+    <string name="food_taxt">Food Tax</string>
+    <string name="bar_taxt">Bar Tax</string>
+    <string name="miami_taxt">Miami Tax</string>
+    <string name="plastic_taxt">Plastic Tax</string>
+    <string name="payment_options_split_check">Opciones de pago</string>
+    <string name="split_ticket">Dividir factura</string>
+    <string name="split_item">Dividir Item</string>
+    <string name="split_done">Hecho</string>
+    <string name="split_combine">Combinar</string>
+    <string name="split_evenly">Dividir igual</string>
+    <string name="unsplit_item">Unir Item</string>
+    <string name="split_in">Dividir en</string>
+    <string name="add_number">Agregue un numero</string>
+    <string name="split_check_success">Ticket dividido con éxito</string>
+    <string name="new_check">Nuevo Ticket</string>
+    <string name="select_item">Seleccione articulos</string>
+    <string name="recall_btn">Retenidas</string>
+    <string name="num">01</string>
+
+    <!-- Refunds Activity -->
+    <string name="dine_in">Dine In</string>
+    <string name="sales_tax">Impuesto</string>
+    <string name="search_ticket">Buscar Factura</string>
+    <string name="closed">Cerrado</string>
+    <string name="check_num">Factura #</string>
+    <string name="date_time">Fecha / Tiempo</string>
+    <string name="employee_table">Empleado</string>
+    <string name="table_customer">Tabla / Cliente</string>
+    <string name="status_txt">Estado</string>
+    <string name="refund">Devolución</string>
+    <string name="reopen">Reabrir</string>
+    <string name="reprint">Reimprimir</string>
+    <string name="split_payment">Dividir pago</string>
+    <string name="balance">Balance</string>
+    <string name="billing_modes">Modos de facturación</string>
+    <string name="email">Email:</string>
+    <string name="text_message">Mensaje de texto</string>
+    <string name="you_must_date">Debe colocar una fecha de inicio</string>
+    <string name="this_date_earlier">Esta fecha es anterior a la inicial</string>
+    <string name="yesterday">Ayer</string>
+    <string name="this_week">Esta semana</string>
+    <string name="last_week">Ult. Semana</string>
+    <string name="last_month">Ult. Mes</string>
+    <string name="delivery">Entrega</string>
+    <string name="start_date">Fecha de Inicio</string>
+    <string name="end_date">Fecha de Cierre</string>
+    <string name="start_hour">Hora de inicio</string>
+    <string name="end_hour">Hora de Cierre</string>
+    <string name="payment_type">Tipo de Pago</string>
+    <string name="advance_filter">Filtros Avanzados</string>
+    <string name="customer">Cliente</string>
+    <string name="c_c_last">C/C Últimos 4 digitos</string>
+    <string name="move_here">Mover aqui</string>
+    <string name="information">No ha ingresado información</string>
+    <string name="not_closed">Esta factura no está cerrada</string>
+    <string name="back_inventory">Regresar al Inventario</string>
+    <string name="waste">Desperdicio</string>
+    <string name="no_changes">Sin cambios</string>
+    <string name="refund_sucess">Artículo devuelto</string>
+    <string name="refund_fail">No se ha podido devolver</string>
+    <string name="refund_fail_service">Ha habido un fallo de servicio</string>
+    <string name="invalid_hour">Hora inválida</string>
+    <string name="add_new_customer">Añadir Cliente</string>
+    <string name="customer_plural">Clientes</string>
+    <string name="last_visit">Última visita</string>
+    <string name="total_visits">Total de visitas</string>
+    <string name="loyalty_points">Puntos de Lealtad</string>
+    <string name="avg_spent">Avg ventas</string>
+    <string name="total_spent">Total de ventas</string>
+    <string name="order_history">Historial de Ordenes</string>
+    <string name="add_to_order">Añadir a la Orden</string>
+    <string name="edit_profile">Editar Perfil</string>
+    <string name="first_name">Nombre</string>
+    <string name="last_name">Apellido</string>
+    <string name="customer_address">Dirección</string>
+    <string name="customer_city">Ciudad</string>
+    <string name="customer_state">Estado</string>
+    <string name="customer_id">ID Cliente</string>
+    <string name="zip_code">ZIP Code</string>
+    <string name="phone_number">Número de Teléfono</string>
+    <string name="date_txt">Fecha</string>
+    <string name="remove_from_order">Remover de Orden</string>
+    <string name="update_success">Actualización Exitosa</string>
+    <string name="update_fail">No se ha podido Actualizar</string>
+    <string name="add_success">Añadido Exitosamente</string>
+    <string name="add_fail">No se pudo Añadir</string>
+    <string name="data_incomplete">Datos Incompletos</string>
+    <string name="pay">Pagar</string>
+    <string name="payment">pago</string>
+    <string name="send_email">Enviar email</string>
+    <string name="user_email">Email del usuario</string>
+    <string name="you_must_place_email">Debe colocar un correo</string>
+    <string name="business_name">Nombre del negocio</string>
+    <string name="head_tittle">Titulo de cabecera</string>
+    <string name="employee_name">Nombre del empleado</string>
+    <string name="food">Comida</string>
+    <string name="others">OTROS$</string>
+    <string name="sale_mb_tax">Ventas/MB Impuesto</string>
+    <string name="total_due">Deuda total</string>
+    <string name="footer_pre_view_check">PIE DE PAGINA</string>
+    <string name="connect_printer">Por favor conecte una impresora USB!</string>
+    <string name="connected_printer">Impresora conectada!</string>
+    <string name="january">Enero</string>
+    <string name="february">Febrero</string>
+    <string name="march">Marzo</string>
+    <string name="april">Abril</string>
+    <string name="may">Mayo</string>
+    <string name="june">Junio</string>
+    <string name="july">Julio</string>
+    <string name="august">Agosto</string>
+    <string name="september">Septiembre</string>
+    <string name="october">Octubre</string>
+    <string name="november">Noviembre</string>
+    <string name="december">Diciembre</string>
+    <string name="refund_item_d">D</string>
+    <string name="quick_amount">Cantidad rápida</string>
+    <string name="payments_tittle">Pagos</string>
+    <string name="its_closed">Esta factura está cerrada</string>
+    <string name="select_check">Seleccione una factura</string>
+    <string name="invoice_vois">Factura anulada exitosamente</string>
+    <string name="void_message_empty">Debe seleccionar elementos</string>
+    <string name="void_item_v">V</string>
+    <string name="enter_pin">Ingrese PIN</string>
+    <string name="its_not_hold">Esta factura no está retenida</string>
+    <string name="not_shift_opened">No se ha abierto el turno</string>
+    <string name="shift_opened">Se abrió el turno</string>
+    <string name="shift_closed">Se cerró el turno</string>
+    <string name="message_question">Esta seguro que quiere eliminar</string>
+    <string name="message_delete">ELIMINAR</string>
+    <string name="message_cancel">CANCEL</string>
+    <string name="message_void">ANULAR</string>
+    <string name="message_title">Eliminar de la Factura</string>
+    <string name="delete_void_item">No se puede eliminar un item cancelado</string>
+    <string name="delete_selected_items">los elementos seleccionados</string>
+    <string name="cancel_from_ticket">Anular de la Factura</string>
+    <string name="question_cancel_dialog_message">Esta seguro que quiere anular</string>
+    <string name="no_items_found">No se encontro ningun item</string>
+    <string name="delete_modifier">Eliminar Modificador</string>
+    <string name="send_button">ENVIAR</string>
+    <string name="recall_button">TRAER</string>
+    <string name="cashier">Cajero:</string>
+    <string name="delete_payment">Eliminar Pago</string>
+    <string name="send_email_message">Enviar Email</string>
+    <string name="send_text_message">Enviar Mensaje de Texto</string>
+    <string name="send_print_button">IMPRIMIR Y ENVIAR</string>
+    <string name="send_email_uppercase">ENVIAR EMAIL</string>
+    <string name="send_text_uppercase">ENVIAR TEXTO</string>
+    <string name="no_print">NO IMPRIMIR</string>
+    <string name="cash_payment">Pago en efectivo</string>
+    <string name="split_payment_uppercase">DIVIDIR PAGO</string>
+    <string name="confirm_payment_tip">CONFIRMAR PAGO</string>
+    <string name="warning">Advertencia!</string>
+    <string name="open_shift_message">Porfavor abra primero la caja</string>
+    <string name="save_add_button"><![CDATA[GUARDAR & AGREGAR AL TICKET]]></string>
+    <string name="void_close"><![CDATA[ANULAR & CERRAR]]></string>
+
+    <array name="CommTypes">
+        <item>UART</item>
+        <item>TCP</item>
+        <item>BLUETOOTH</item>
+        <item>SSL</item>
+        <item>HTTP</item>
+        <item>HTTPS</item>
+        <item>USB</item>
+        <item>AIDL</item>
+    </array>
+
+    <array name="BaudRate_new">
+        <item>"9600"</item>
+        <item>"115200"</item>
+    </array>
+
+    <array name="EnableProxy">
+        <item>ON</item>
+        <item>OFF</item>
+    </array>
+
+    <array name="TenderType">
+        <item>CREDIT</item>
+        <item>DEBIT</item>
+        <item>GIFT</item>
+    </array>
+
+    <array name="TransType">
+        <item>SALE</item>
+        <item>RETURN</item>
+        <item>VOID SALE</item>
+        <item>ADJUST</item>
+    </array>
+
+    <array name="Printer_connection">
+        <item>TCP/IP</item>
+        <item>USB</item>
+    </array>
+
+    <string name="activity_main_originalsize">OriginalSize:</string>
+    <string name="activity_main_minifront">MiniFront:</string>
+    <string name="activity_main_heightsize">HeightSize:</string>
+    <string name="activity_main_widthsize">WidthSize:</string>
+    <string name="activity_main_heightwidthsize">HeightWidthSize:</string>
+    <string name="activity_main_bold">Blod:</string>
+    <string name="activity_main_underline">Underline:</string>
+    <string name="welcome_to_juvopos">BIENVENIDO A JUVOPOS</string>
+    <string name="please_enter_your_pin_code_to_identify_this_tablet">Favor ingrese su PIN para identificar este dispositivo</string>
+    <string name="enter_pin_new">Ingrese PIN</string>
+    <string name="enter_your_pin_to_log_in">Ingrese su PIN para registrarse</string>
+    <string name="failed_registration">Error al registrar el dispositivo en la tienda</string>
+    <string name="network_connection_error">Error de conexion a Internet</string>
+    <string name="http_connection_error">Error de conexion HTTP</string>
+    <string name="please_enter_a_valid_pin">Favor ingresar un PIN valido</string>
+    <string name="welcome_registration">Bienvenido,</string>
+    <string name="enter_your_pin_to_continue">Ingrese su PIN para continuar</string>
+    <string name="time_clock">Time Clock</string>
+
+    <array name="Languages">
+        <item>Ingles</item>
+        <item>Espanol</item>
+    </array>
+
+    <!-- batch -->
+    <string name="batch_request_transType">Command Type</string>
+    <string name="batch_request_edcType">EDC Type</string>
+    <string name="batch_request_timestamp">Timestamp</string>
+    <string name="batch_request_SAFIndicator">SAF Indicator</string>
+    <string name="batch_request_extdata">ExtData</string>
+    <string name="batch_response_resultCode">Result Code</string>
+    <string name="batch_response_resultTxt">Result Txt</string>
+    <string name="batch_response_creditCount">Credit Count</string>
+    <string name="batch_response_creditAmount">Credit Amount</string>
+    <string name="batch_response_debitCount">Debit Count</string>
+    <string name="batch_response_debitAmount">Debit Amount</string>
+    <string name="batch_response_ebtCount">EBT Count</string>
+    <string name="batch_response_ebtAmount">EBT Amount</string>
+    <string name="batch_response_giftCount">Gift Count</string>
+    <string name="batch_response_giftAmount">Gift Amount</string>
+    <string name="batch_response_loyaltyCount">Loyalty Count</string>
+    <string name="batch_response_loyaltyAmount">Loyalty Amount</string>
+    <string name="batch_response_cashCount">Cash Count</string>
+    <string name="batch_response_cashAmount">Cash Amount</string>
+    <string name="batch_response_checkCount">CHECK Count</string>
+    <string name="batch_response_checkAmount">CHECK Amount</string>
+    <string name="batch_response_timestamp">Timestamp</string>
+    <string name="batch_response_tid">TID</string>
+    <string name="batch_response_mid">MID</string>
+    <string name="batch_response_hostTraceNum">Host Trace Num</string>
+    <string name="batch_response_batchNum">Batch Num</string>
+    <string name="batch_response_authCode">Auth Code</string>
+    <string name="batch_response_hostCode">Host Code</string>
+    <string name="batch_response_hostResponse">Host Response</string>
+    <string name="batch_response_message">Message</string>
+    <string name="batch_response_extData">Ext Data</string>
+
+    <!-- SAF Information -->
+    <string name="batch_response_SAFTotalCnt">SAF Total Count</string>
+    <string name="batch_response_SAFTotalAmt">SAF Total Amt</string>
+    <string name="batch_response_UploadRecords">SAF Uploaded Count</string>
+    <string name="batch_response_UploadAmt">SAF Uploaded Amount</string>
+    <string name="batch_response_FailedRecords">SAF Failed Count</string>
+    <string name="batch_response_TotalFailed">SAF Failed Total</string>
+    <string name="batch_response_DeleteRecords">SAF Deleted Count</string>
+    <string name="batch_response_BatchFailedRefNum">Batch Failed RefNum</string>
+    <string name="batch_response_BatchFailedCount">Batch Failed Count</string>
+
+    <string name="batch_process_prompt">Please wait while processing</string>
+
+    <string-array name="batch_trans">
+        <item>BATCHCLOSE</item>
+        <item>FORCEBATCHCLOSE</item>
+        <item>BATCHCLEAR</item>
+        <item>PURGEBATCH</item>
+        <item>SAFUPLOAD</item>
+        <item>DELETESAFFILE</item>
+        <item>DELETETRANSACTION</item>
+    </string-array>
+
+    <string name="hint_select">--Please Select--</string>
+    <string name="versionText">V 1.1.0</string>
+
+</resources>

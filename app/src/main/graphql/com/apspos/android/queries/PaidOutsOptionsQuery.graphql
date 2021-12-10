@@ -1,0 +1,11 @@
+query PaidOutsOptionsQuery($storeId: String!) {
+    paidOutOptions(storeId: $storeId) {
+        id
+        name
+        managerApproval
+        openCashDrawer
+        requireInvoice
+        requireContact
+        requireComment
+    }
+}

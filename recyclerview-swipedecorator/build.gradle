@@ -1,0 +1,61 @@
+apply plugin: 'com.android.library'
+
+int VERSION_CODE = 6
+String VERSION_NAME = "1.2.2"
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode VERSION_CODE
+        versionName VERSION_NAME
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    testImplementation 'junit:junit:4.12'
+}
+
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'RecyclerViewSwipeDecorator'
+
+    publishedGroupId = 'it.xabaras.android'
+    libraryName = 'RecyclerViewSwipeDecorator'
+    artifact = 'recyclerview-swipedecorator'
+
+    libraryDescription = 'A simple utility class to add a background and/or an icon and/or a label while swiping a RecyclerView item left or right.'
+
+    siteUrl = 'https://github.com/xabaras/RecyclerViewSwipeDecorator'
+    gitUrl = 'https://github.com/xabaras/RecyclerViewSwipeDecorator.git'
+
+    libraryVersion = VERSION_NAME
+
+    developerId = 'xabaras'
+    developerName = 'Paolo Montalto'
+    developerEmail = 'p.montalto@xabaras.it'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'

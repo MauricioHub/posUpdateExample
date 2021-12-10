@@ -1,0 +1,16 @@
+query OrderTypeQuery ($filter: String!,  $storeId: String!) {
+    orderTypes (filter: $filter, storeId: $storeId) {
+        id
+        name
+        showPos
+        pos {
+            id
+            default
+            promptFor
+            promptForValue
+            step
+            requiredPrompt
+            enableFloorMap
+        }
+    }
+}

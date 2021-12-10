@@ -1,0 +1,14 @@
+query PaymentsMethodsNewQuery($storeId: String!) {
+    payments(storeId: $storeId){
+        id
+        name
+        disable
+        printVoucher
+        numberVoucher
+        paymentMethod {
+            id
+            code
+            name
+        }
+    }
+}
